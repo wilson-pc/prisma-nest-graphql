@@ -1,0 +1,21 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var AggregateRoleArgs_1 = require("./AggregateRoleArgs");
+Object.defineProperty(exports, "AggregateRoleArgs", { enumerable: true, get: function () { return AggregateRoleArgs_1.AggregateRoleArgs; } });
+var CreateRoleArgs_1 = require("./CreateRoleArgs");
+Object.defineProperty(exports, "CreateRoleArgs", { enumerable: true, get: function () { return CreateRoleArgs_1.CreateRoleArgs; } });
+var DeleteManyRoleArgs_1 = require("./DeleteManyRoleArgs");
+Object.defineProperty(exports, "DeleteManyRoleArgs", { enumerable: true, get: function () { return DeleteManyRoleArgs_1.DeleteManyRoleArgs; } });
+var DeleteRoleArgs_1 = require("./DeleteRoleArgs");
+Object.defineProperty(exports, "DeleteRoleArgs", { enumerable: true, get: function () { return DeleteRoleArgs_1.DeleteRoleArgs; } });
+var FindManyRoleArgs_1 = require("./FindManyRoleArgs");
+Object.defineProperty(exports, "FindManyRoleArgs", { enumerable: true, get: function () { return FindManyRoleArgs_1.FindManyRoleArgs; } });
+var FindOneRoleArgs_1 = require("./FindOneRoleArgs");
+Object.defineProperty(exports, "FindOneRoleArgs", { enumerable: true, get: function () { return FindOneRoleArgs_1.FindOneRoleArgs; } });
+var UpdateManyRoleArgs_1 = require("./UpdateManyRoleArgs");
+Object.defineProperty(exports, "UpdateManyRoleArgs", { enumerable: true, get: function () { return UpdateManyRoleArgs_1.UpdateManyRoleArgs; } });
+var UpdateRoleArgs_1 = require("./UpdateRoleArgs");
+Object.defineProperty(exports, "UpdateRoleArgs", { enumerable: true, get: function () { return UpdateRoleArgs_1.UpdateRoleArgs; } });
+var UpsertRoleArgs_1 = require("./UpsertRoleArgs");
+Object.defineProperty(exports, "UpsertRoleArgs", { enumerable: true, get: function () { return UpsertRoleArgs_1.UpsertRoleArgs; } });
+//# sourceMappingURL=index.js.map
