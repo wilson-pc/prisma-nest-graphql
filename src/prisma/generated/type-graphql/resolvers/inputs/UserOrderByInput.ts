@@ -1,6 +1,6 @@
 import * as TypeGraphQL from "type-graphql";
 import GraphQLJSON from "graphql-type-json";
-import { JsonValue, InputJsonValue } from "@prisma/client";
+import { JsonValue, InputJsonValue } from "../../../../../../prisma/client";
 import { SortOrder } from "../../enums/SortOrder";
 
 @TypeGraphQL.InputType({

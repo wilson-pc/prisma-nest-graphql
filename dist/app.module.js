@@ -12,7 +12,7 @@ const app_controller_1 = require("./app.controller");
 const app_service_1 = require("./app.service");
 const typegraphql_nestjs_1 = require("typegraphql-nestjs");
 const type_graphql_1 = require("./prisma/generated/type-graphql");
-const client_1 = require("@prisma/client");
+const client_1 = require("../prisma/client/index");
 const prisma = new client_1.PrismaClient();
 let AppModule = class AppModule {
 };

@@ -3,7 +3,7 @@ import { AppController } from './app.controller';
 import { AppService } from './app.service';
 import { TypeGraphQLModule } from "typegraphql-nestjs";
 import { UserCrudResolver, RoleCrudResolver, UserRelationsResolver, RoleRelationsResolver } from './prisma/generated/type-graphql';
-import { PrismaClient } from '@prisma/client';
+import { PrismaClient } from 'prisma/client';
 
 const prisma = new PrismaClient();
 interface Context {

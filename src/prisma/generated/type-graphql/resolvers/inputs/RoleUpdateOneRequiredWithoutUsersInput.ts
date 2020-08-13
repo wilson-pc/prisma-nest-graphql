@@ -1,6 +1,6 @@
 import * as TypeGraphQL from "type-graphql";
 import GraphQLJSON from "graphql-type-json";
-import { JsonValue, InputJsonValue } from "@prisma/client";
+import { JsonValue, InputJsonValue } from "../../../../../../prisma/client";
 import { RoleCreateWithoutUsersInput } from "../inputs/RoleCreateWithoutUsersInput";
 import { RoleUpdateWithoutUsersDataInput } from "../inputs/RoleUpdateWithoutUsersDataInput";
 import { RoleUpsertWithoutUsersInput } from "../inputs/RoleUpsertWithoutUsersInput";
