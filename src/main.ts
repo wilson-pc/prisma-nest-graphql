@@ -8,5 +8,6 @@ async function bootstrap() {
   app.use(json({ limit: '100mb'}));
   const PORT = process.env.PORT || 3000;
   await app.listen(PORT);
+  console.log(" n v  nv vn");
 }
 bootstrap();
