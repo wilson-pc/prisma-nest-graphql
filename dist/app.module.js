@@ -21,6 +21,7 @@ AppModule = __decorate([
         imports: [typegraphql_nestjs_1.TypeGraphQLModule.forRoot({
                 emitSchemaFile: true,
                 validate: false,
+                introspection: true,
                 playground: true,
                 dateScalarMode: "timestamp",
                 context: () => ({ prisma }),
