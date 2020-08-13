@@ -14,6 +14,7 @@ interface Context {
   imports: [TypeGraphQLModule.forRoot({
     emitSchemaFile: true,
     validate: false,
+    introspection: true,
     playground: true,
     dateScalarMode: "timestamp",
     context: (): Context => ({ prisma }),

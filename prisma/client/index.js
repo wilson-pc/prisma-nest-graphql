@@ -45,7 +45,7 @@ exports.raw = sqltag.raw
  * In order to make `ncc` and `node-file-trace` happy.
 **/
 
-path.join(__dirname, 'query-engine-debian-openssl-1.1.x');
+path.join(__dirname, 'query-engine-linux-musl');
 
 /**
  * Annotation for `node-file-trace`
@@ -84,7 +84,9 @@ const config = {
     "name": "client",
     "provider": "prisma-client-js",
     "output": "/home/wilson/Desktop/proyectos/prisma-nest-graphql/prisma/client",
-    "binaryTargets": [],
+    "binaryTargets": [
+      "linux-musl"
+    ],
     "previewFeatures": [
       "aggregateApi"
     ],
