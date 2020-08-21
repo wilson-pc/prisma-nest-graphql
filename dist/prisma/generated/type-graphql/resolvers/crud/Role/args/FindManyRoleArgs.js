@@ -14,6 +14,7 @@ const TypeGraphQL = require("type-graphql");
 const RoleOrderByInput_1 = require("../../../inputs/RoleOrderByInput");
 const RoleWhereInput_1 = require("../../../inputs/RoleWhereInput");
 const RoleWhereUniqueInput_1 = require("../../../inputs/RoleWhereUniqueInput");
+const RoleDistinctFieldEnum_1 = require("../../../../enums/RoleDistinctFieldEnum");
 let FindManyRoleArgs = class FindManyRoleArgs {
 };
 __decorate([
@@ -36,6 +37,10 @@ __decorate([
     TypeGraphQL.Field(_type => TypeGraphQL.Int, { nullable: true }),
     __metadata("design:type", Number)
 ], FindManyRoleArgs.prototype, "skip", void 0);
+__decorate([
+    TypeGraphQL.Field(_type => [RoleDistinctFieldEnum_1.RoleDistinctFieldEnum], { nullable: true }),
+    __metadata("design:type", Array)
+], FindManyRoleArgs.prototype, "distinct", void 0);
 FindManyRoleArgs = __decorate([
     TypeGraphQL.ArgsType()
 ], FindManyRoleArgs);

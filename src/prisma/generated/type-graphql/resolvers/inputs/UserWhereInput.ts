@@ -10,6 +10,24 @@ import { StringFilter } from "../inputs/StringFilter";
   description: undefined,
 })
 export class UserWhereInput {
+  @TypeGraphQL.Field(_type => [UserWhereInput], {
+    nullable: true,
+    description: undefined
+  })
+  AND?: UserWhereInput[] | undefined;
+
+  @TypeGraphQL.Field(_type => [UserWhereInput], {
+    nullable: true,
+    description: undefined
+  })
+  OR?: UserWhereInput[] | undefined;
+
+  @TypeGraphQL.Field(_type => [UserWhereInput], {
+    nullable: true,
+    description: undefined
+  })
+  NOT?: UserWhereInput[] | undefined;
+
   @TypeGraphQL.Field(_type => StringFilter, {
     nullable: true,
     description: undefined
@@ -39,24 +57,6 @@ export class UserWhereInput {
     description: undefined
   })
   roleId?: StringFilter | undefined;
-
-  @TypeGraphQL.Field(_type => [UserWhereInput], {
-    nullable: true,
-    description: undefined
-  })
-  AND?: UserWhereInput[] | undefined;
-
-  @TypeGraphQL.Field(_type => [UserWhereInput], {
-    nullable: true,
-    description: undefined
-  })
-  OR?: UserWhereInput[] | undefined;
-
-  @TypeGraphQL.Field(_type => [UserWhereInput], {
-    nullable: true,
-    description: undefined
-  })
-  NOT?: UserWhereInput[] | undefined;
 
   @TypeGraphQL.Field(_type => RoleWhereInput, {
     nullable: true,

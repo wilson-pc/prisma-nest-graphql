@@ -13,46 +13,11 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.RoleWhereInput = void 0;
 const TypeGraphQL = require("type-graphql");
 const DateTimeFilter_1 = require("../inputs/DateTimeFilter");
-const NullableStringFilter_1 = require("../inputs/NullableStringFilter");
 const StringFilter_1 = require("../inputs/StringFilter");
-const UserFilter_1 = require("../inputs/UserFilter");
+const StringNullableFilter_1 = require("../inputs/StringNullableFilter");
+const UserListRelationFilter_1 = require("../inputs/UserListRelationFilter");
 let RoleWhereInput = RoleWhereInput_1 = class RoleWhereInput {
 };
-__decorate([
-    TypeGraphQL.Field(_type => StringFilter_1.StringFilter, {
-        nullable: true,
-        description: undefined
-    }),
-    __metadata("design:type", StringFilter_1.StringFilter)
-], RoleWhereInput.prototype, "id", void 0);
-__decorate([
-    TypeGraphQL.Field(_type => StringFilter_1.StringFilter, {
-        nullable: true,
-        description: undefined
-    }),
-    __metadata("design:type", StringFilter_1.StringFilter)
-], RoleWhereInput.prototype, "name", void 0);
-__decorate([
-    TypeGraphQL.Field(_type => NullableStringFilter_1.NullableStringFilter, {
-        nullable: true,
-        description: undefined
-    }),
-    __metadata("design:type", NullableStringFilter_1.NullableStringFilter)
-], RoleWhereInput.prototype, "description", void 0);
-__decorate([
-    TypeGraphQL.Field(_type => UserFilter_1.UserFilter, {
-        nullable: true,
-        description: undefined
-    }),
-    __metadata("design:type", UserFilter_1.UserFilter)
-], RoleWhereInput.prototype, "users", void 0);
-__decorate([
-    TypeGraphQL.Field(_type => DateTimeFilter_1.DateTimeFilter, {
-        nullable: true,
-        description: undefined
-    }),
-    __metadata("design:type", DateTimeFilter_1.DateTimeFilter)
-], RoleWhereInput.prototype, "createdAt", void 0);
 __decorate([
     TypeGraphQL.Field(_type => [RoleWhereInput_1], {
         nullable: true,
@@ -74,6 +39,41 @@ __decorate([
     }),
     __metadata("design:type", Array)
 ], RoleWhereInput.prototype, "NOT", void 0);
+__decorate([
+    TypeGraphQL.Field(_type => StringFilter_1.StringFilter, {
+        nullable: true,
+        description: undefined
+    }),
+    __metadata("design:type", StringFilter_1.StringFilter)
+], RoleWhereInput.prototype, "id", void 0);
+__decorate([
+    TypeGraphQL.Field(_type => StringFilter_1.StringFilter, {
+        nullable: true,
+        description: undefined
+    }),
+    __metadata("design:type", StringFilter_1.StringFilter)
+], RoleWhereInput.prototype, "name", void 0);
+__decorate([
+    TypeGraphQL.Field(_type => StringNullableFilter_1.StringNullableFilter, {
+        nullable: true,
+        description: undefined
+    }),
+    __metadata("design:type", StringNullableFilter_1.StringNullableFilter)
+], RoleWhereInput.prototype, "description", void 0);
+__decorate([
+    TypeGraphQL.Field(_type => UserListRelationFilter_1.UserListRelationFilter, {
+        nullable: true,
+        description: undefined
+    }),
+    __metadata("design:type", UserListRelationFilter_1.UserListRelationFilter)
+], RoleWhereInput.prototype, "users", void 0);
+__decorate([
+    TypeGraphQL.Field(_type => DateTimeFilter_1.DateTimeFilter, {
+        nullable: true,
+        description: undefined
+    }),
+    __metadata("design:type", DateTimeFilter_1.DateTimeFilter)
+], RoleWhereInput.prototype, "createdAt", void 0);
 RoleWhereInput = RoleWhereInput_1 = __decorate([
     TypeGraphQL.InputType({
         isAbstract: true,

@@ -417,8 +417,8 @@
         "affectsGlobalScope": false
       },
       "../prisma/client/runtime/dmmf-types.d.ts": {
-        "version": "5a53b7a80ad4994c8a5c6bdd8677bd85d0a7a1b15d6b10858fe12db01d6920bd",
-        "signature": "5a53b7a80ad4994c8a5c6bdd8677bd85d0a7a1b15d6b10858fe12db01d6920bd",
+        "version": "ac6a4133ed0404cea036413a99c62bbf292280b939b27680a7b043e5650f0834",
+        "signature": "ac6a4133ed0404cea036413a99c62bbf292280b939b27680a7b043e5650f0834",
         "affectsGlobalScope": false
       },
       "../prisma/client/runtime/index.d.ts": {
@@ -427,8 +427,8 @@
         "affectsGlobalScope": false
       },
       "../prisma/client/index.d.ts": {
-        "version": "0bb99321abb5c05ae6143933e5e826c9dc8084dd656cfb1ce742d558a515bb4c",
-        "signature": "0bb99321abb5c05ae6143933e5e826c9dc8084dd656cfb1ce742d558a515bb4c",
+        "version": "cf714e57c2995b810b6995c1f3d6019d202ebf024aaf70315dae986c0157265e",
+        "signature": "cf714e57c2995b810b6995c1f3d6019d202ebf024aaf70315dae986c0157265e",
         "affectsGlobalScope": false
       },
       "../prisma/client/runtime/Dataloader.d.ts": {
@@ -472,8 +472,8 @@
         "affectsGlobalScope": false
       },
       "../prisma/client/runtime/query.d.ts": {
-        "version": "eefcd577366b8668624596580ccea6e990b06028c3876717b688c2355acd4f78",
-        "signature": "eefcd577366b8668624596580ccea6e990b06028c3876717b688c2355acd4f78",
+        "version": "808400c5a5653c5c7bcb9691239a8b6fb12d10183cebf9199faab393d749233b",
+        "signature": "808400c5a5653c5c7bcb9691239a8b6fb12d10183cebf9199faab393d749233b",
         "affectsGlobalScope": false
       },
       "../node_modules/@prisma/engine-core/dist/BrowserEngine.d.ts": {
@@ -517,13 +517,13 @@
         "affectsGlobalScope": false
       },
       "../node_modules/@prisma/get-platform/dist/platforms.d.ts": {
-        "version": "939071070a095ae0d4ebbeea2bd5b809a5c78c888f3c16ca8812eb2b01aefe67",
-        "signature": "939071070a095ae0d4ebbeea2bd5b809a5c78c888f3c16ca8812eb2b01aefe67",
+        "version": "163dd9a1b0664cf166c70ad12fbc52e438ce449becc1bd18569baef28d3113a1",
+        "signature": "163dd9a1b0664cf166c70ad12fbc52e438ce449becc1bd18569baef28d3113a1",
         "affectsGlobalScope": false
       },
       "../node_modules/@prisma/get-platform/dist/getPlatform.d.ts": {
-        "version": "9faab0dbc017c8fa75e6e727a6114628b398a7cd31db58250947f1e6d0ab74a1",
-        "signature": "9faab0dbc017c8fa75e6e727a6114628b398a7cd31db58250947f1e6d0ab74a1",
+        "version": "c593a1ad3543aaf5a33778eb1e7bb033bd06e10619456b6eacea7c4fdc9aa83d",
+        "signature": "c593a1ad3543aaf5a33778eb1e7bb033bd06e10619456b6eacea7c4fdc9aa83d",
         "affectsGlobalScope": false
       },
       "../node_modules/@prisma/get-platform/dist/index.d.ts": {
@@ -537,18 +537,18 @@
         "affectsGlobalScope": false
       },
       "../node_modules/@prisma/engine-core/dist/undici.d.ts": {
-        "version": "6a7e990d26a9e3d485dd2621c00ca600220ca23b40897da7214847291401e7e6",
-        "signature": "6a7e990d26a9e3d485dd2621c00ca600220ca23b40897da7214847291401e7e6",
+        "version": "986e94a9ed43fec3fd91ee4c085b875c299df7d3b3c91923f3cccefa81477eb4",
+        "signature": "986e94a9ed43fec3fd91ee4c085b875c299df7d3b3c91923f3cccefa81477eb4",
         "affectsGlobalScope": false
       },
       "../node_modules/@prisma/engine-core/dist/NodeEngine.d.ts": {
-        "version": "7d64077fad2645b4a9a2fdc6348221d623c63bb1aaf77b6004bdd2ab147c0e98",
-        "signature": "7d64077fad2645b4a9a2fdc6348221d623c63bb1aaf77b6004bdd2ab147c0e98",
+        "version": "ddb06c2644c06ba708503b384815120227f12ef1846692a448f2402f7630da60",
+        "signature": "ddb06c2644c06ba708503b384815120227f12ef1846692a448f2402f7630da60",
         "affectsGlobalScope": false
       },
       "../prisma/client/runtime/getPrismaClient.d.ts": {
-        "version": "3f2da81d494a400d7da2c7af1f76c88bc840eb3a0c7e5e318cf5ce56e53a9414",
-        "signature": "3f2da81d494a400d7da2c7af1f76c88bc840eb3a0c7e5e318cf5ce56e53a9414",
+        "version": "0d6d2a839f3834bcd41901ab3e0323c77964a278a4bb33353550471846c39f4a",
+        "signature": "0d6d2a839f3834bcd41901ab3e0323c77964a278a4bb33353550471846c39f4a",
         "affectsGlobalScope": false
       },
       "../prisma/client/runtime/mergeBy.d.ts": {
@@ -5006,8 +5006,8 @@
         "affectsGlobalScope": false
       },
       "../node_modules/graphql-query-complexity/dist/QueryComplexity.d.ts": {
-        "version": "8b1f90c444261a925d6c26f178c4bc44d192f72d18f1c319aca88e329d46ada8",
-        "signature": "8b1f90c444261a925d6c26f178c4bc44d192f72d18f1c319aca88e329d46ada8",
+        "version": "747a20e80960f90eadf75241dac704fa6d33a684cb2be53e3152a7816225e72c",
+        "signature": "747a20e80960f90eadf75241dac704fa6d33a684cb2be53e3152a7816225e72c",
         "affectsGlobalScope": false
       },
       "../node_modules/graphql-query-complexity/dist/estimators/simple/index.d.ts": {
@@ -5495,14 +5495,24 @@
         "signature": "eb9a661f5361eac6aa11061737ffe9b77ddc47b7aae76da74ac034f8facc5934",
         "affectsGlobalScope": false
       },
+      "../src/prisma/generated/type-graphql/enums/RoleDistinctFieldEnum.ts": {
+        "version": "b90862f9e70fd2d5f26e8af456515117fd2fb8646677682d7f4f4cd81ceeb17a",
+        "signature": "5ef5bcd6f74717b01684effdb079cc6a74624d5e448ff24f5eb34db54f4f17fd",
+        "affectsGlobalScope": false
+      },
       "../src/prisma/generated/type-graphql/enums/SortOrder.ts": {
         "version": "c4b9503dfccba2e1a1cea5ed1f4a7b14d129285ed707e8d0391a7edc9591bd65",
         "signature": "d577c8c9969064fe0eb11a0c39005154dbd8404ab6463e51d3e1bd9d52c5cba9",
         "affectsGlobalScope": false
       },
+      "../src/prisma/generated/type-graphql/enums/UserDistinctFieldEnum.ts": {
+        "version": "8980c0a8edb688d38b34394aeccf6c3592855b79bbfb84deaba121813fb18f09",
+        "signature": "7f862802446d55f1d8407d77612332bc451272f05e29a437654770f9560e03a1",
+        "affectsGlobalScope": false
+      },
       "../src/prisma/generated/type-graphql/enums/index.ts": {
-        "version": "125b9e8e51a506e9699f2393480328abcdbdec40a6b60865943090e1e2f7b9cf",
-        "signature": "125b9e8e51a506e9699f2393480328abcdbdec40a6b60865943090e1e2f7b9cf",
+        "version": "bda2a7689883a1729f8fa8feafc867f131198dbca6a97691490fe57922b7a932",
+        "signature": "bda2a7689883a1729f8fa8feafc867f131198dbca6a97691490fe57922b7a932",
         "affectsGlobalScope": false
       },
       "../node_modules/graphql-type-json/lib/index.d.ts": {
@@ -5535,34 +5545,49 @@
         "signature": "6bf1b83c1516192252f87093e042b92a16ae00febe08c3299b8d0f92cda98102",
         "affectsGlobalScope": false
       },
-      "../src/prisma/generated/type-graphql/resolvers/inputs/DateTimeFilter.ts": {
-        "version": "e2f25d1e488961337bfe4b3dec5bfe0cd092be409a7a746429a8097ce9c9971a",
-        "signature": "52d89f4d5e9771bba9fc0ec8c67d3b8296f740e4bf02c63a6ab68eb0f2c3f304",
+      "../src/prisma/generated/type-graphql/resolvers/inputs/NestedDateTimeFilter.ts": {
+        "version": "ed2069590781fdfca7fd6ad397470fbb16f2524058c28d287aee23b1ec0b13cc",
+        "signature": "56d3f542c3708f35f494ce627470bfd40c3faea6a8835f82cf9e198c70ae7cc6",
         "affectsGlobalScope": false
       },
-      "../src/prisma/generated/type-graphql/resolvers/inputs/NullableStringFilter.ts": {
-        "version": "eed3f089b17b8aac41aeab9f602c2cb48cb081e91acbfa8bd5e257480a9c4e6f",
-        "signature": "c21fc90fe9f87ceef4cff31635af2ce46557772a1614959677c2acc74eff0b3f",
+      "../src/prisma/generated/type-graphql/resolvers/inputs/DateTimeFilter.ts": {
+        "version": "d4721ed77af15c074ced506fd9cc892d0c12dcd8a1c55d8970b433b063f2a922",
+        "signature": "bdb081d95f12ae853cd56c4c0d3a0ef3946036778d054311f7539950cf75e068",
+        "affectsGlobalScope": false
+      },
+      "../src/prisma/generated/type-graphql/resolvers/inputs/NestedStringFilter.ts": {
+        "version": "9915241274097a28355f7e4d518671df3b63e829d45060e7978d76ad23546db2",
+        "signature": "27fb29857b811e0c3ed2f6673e3e6d44be8c6ec70b4c73da9244da6680b988da",
         "affectsGlobalScope": false
       },
       "../src/prisma/generated/type-graphql/resolvers/inputs/StringFilter.ts": {
-        "version": "dd1e68180af1678e4950f7ed5345cc7b8cd91e7de91968ee337fa42a555bdbe8",
-        "signature": "1fcd5f6db3b088e3ac47dcbe7c08fe42f8da7b8f38c6ac8b34cbd9474fd5a679",
+        "version": "1130583f84bc29a39f67e8f272a1002c94570cacdfe87de081f27dce472f5331",
+        "signature": "c23db521be4fe654043fc165cbdcb43e925e3264f491eb54b7c196bea5a0d9c6",
+        "affectsGlobalScope": false
+      },
+      "../src/prisma/generated/type-graphql/resolvers/inputs/NestedStringNullableFilter.ts": {
+        "version": "336e7a46ae7babc45c42b1779af730aa28b34d5f0b399f97736bbcb9ee03a8b2",
+        "signature": "f5da2ae12cc9f725c42e8350879feba68e7b4d3296533f1591d0db853d0a9e35",
+        "affectsGlobalScope": false
+      },
+      "../src/prisma/generated/type-graphql/resolvers/inputs/StringNullableFilter.ts": {
+        "version": "9994d78a27c7d5b094380eabbf8f2d9c6e1fa85ce57c365ad85b18265966afce",
+        "signature": "d8e4eed8233a3af24db406ac6a9f9e481ff310452c71b23795e12c00ca891089",
         "affectsGlobalScope": false
       },
       "../src/prisma/generated/type-graphql/resolvers/inputs/UserWhereInput.ts": {
-        "version": "32f21269004124ab71292e31d43947d49f42d0bfbb58d8a23e648852a34829fb",
-        "signature": "3aa6f2339f356069e2337a7c1fd16e84baa12ad7f3e2274eb4794aab93f07a45",
+        "version": "88c6b34c9e66f4ba73f39a8ef0c8524fe2cf6103f239d1ab61fc4bda3826efdf",
+        "signature": "dd8d1f9985f7181b9a8a118227eca9e656cec1bcdf96987e1f02abc668800348",
         "affectsGlobalScope": false
       },
-      "../src/prisma/generated/type-graphql/resolvers/inputs/UserFilter.ts": {
-        "version": "6daa526e3cb8e518c1c4be2568939bc44b0fdc5e086718fc0b6b05997f077d9c",
-        "signature": "5b366ca441c646fa893949e722ae57d7c50a7d3cd91fb234e600dff723a0fe22",
+      "../src/prisma/generated/type-graphql/resolvers/inputs/UserListRelationFilter.ts": {
+        "version": "8973702d5e397d7200fea5dcb466af64ce3f0996942eca432c10777dba7784a4",
+        "signature": "463d93a605d15f8521b3e998f7425576d913595b50125a3454b28dfa868daea0",
         "affectsGlobalScope": false
       },
       "../src/prisma/generated/type-graphql/resolvers/inputs/RoleWhereInput.ts": {
-        "version": "4ee50893479b160a93156bcc162fd260c700da9f25255b2e6a127b3524d3f105",
-        "signature": "cba8b2f85903b6494bb3801bc91a178d811b37954fcb91a8b91618a50ff1a5dd",
+        "version": "430df9a3131d545cabde3ae14d73f9cadbefad25234c9bd43c330420876a459d",
+        "signature": "c7dd079e3d2df4544bec1aec81d72af58103c362c5e2cbe9ad9e10f8c61eef83",
         "affectsGlobalScope": false
       },
       "../src/prisma/generated/type-graphql/resolvers/inputs/RoleWhereUniqueInput.ts": {
@@ -5571,8 +5596,8 @@
         "affectsGlobalScope": false
       },
       "../src/prisma/generated/type-graphql/resolvers/crud/Role/args/AggregateRoleArgs.ts": {
-        "version": "c4be27cac7b94c31e447b3c61257de2d4eed3df684e9f73a16c18ab4856c8a07",
-        "signature": "c8ca4a59b4458401f939ac8604d27e0accf26b6ffee822be8d5b5e86ecd94a60",
+        "version": "4b1777f05d649ba2b63de190d516d49b424d88a7b1fa209724f1275da073817f",
+        "signature": "4e86f2aae81d323c9578fd342d69111b96e72c3473c99d056e690aa3ac79a0aa",
         "affectsGlobalScope": false
       },
       "../src/prisma/generated/type-graphql/resolvers/inputs/UserCreateWithoutRoleInput.ts": {
@@ -5611,8 +5636,8 @@
         "affectsGlobalScope": false
       },
       "../src/prisma/generated/type-graphql/resolvers/crud/Role/args/FindManyRoleArgs.ts": {
-        "version": "275cc5e1f9de04aefcf75be9f2589c3b35f687f670561d5d827ea0edf0258362",
-        "signature": "200eb4a7c76bdc88ed516137965f7d4e17961d77b4a1f06d3f7381a41da5a620",
+        "version": "835e1965744f291554ca24463476949c8efc9eb84d5e8cbbcbbef32d90a764c0",
+        "signature": "42bcdb9549e62662393414dad390dfadf6012710f30471cf9a28bed04fbbb7ac",
         "affectsGlobalScope": false
       },
       "../src/prisma/generated/type-graphql/resolvers/crud/Role/args/FindOneRoleArgs.ts": {
@@ -5631,8 +5656,8 @@
         "affectsGlobalScope": false
       },
       "../src/prisma/generated/type-graphql/resolvers/inputs/UserScalarWhereInput.ts": {
-        "version": "9e2bfa9ac12852695580821faca5229a0a0c4d69b813c5d42e91295c8b4df522",
-        "signature": "20a322d513084704a85869d1d3a44082b40902238c11166a0e70501aa620b5ab",
+        "version": "45328196fc796f93c3aaa94eb93922412b0e0ccc89321fbeb3846d9195b61461",
+        "signature": "a8e282cf8206ee736484a59e1675ae88461a81150169fcaf428b999f2a7d1eeb",
         "affectsGlobalScope": false
       },
       "../src/prisma/generated/type-graphql/resolvers/inputs/UserUpdateManyDataInput.ts": {
@@ -5751,8 +5776,8 @@
         "affectsGlobalScope": false
       },
       "../src/prisma/generated/type-graphql/resolvers/crud/User/args/AggregateUserArgs.ts": {
-        "version": "3798b11d5485155435b716342b5a29927754232071dae45d858ef22f16ea40f0",
-        "signature": "7eab9752d4325a11589fb7dda38bb0347fbab6fef1b20250e8f5d51c3f1a4b4b",
+        "version": "0db4a88fcb8d3e81994978ec6d0bfd604b57b214bb92492f499ba2127cf10bb9",
+        "signature": "102a7b736fa9e26fd1cbdfd74199336fbf1b087aa2c0263ef39c0acc2fab73f0",
         "affectsGlobalScope": false
       },
       "../src/prisma/generated/type-graphql/resolvers/inputs/RoleCreateWithoutUsersInput.ts": {
@@ -5786,8 +5811,8 @@
         "affectsGlobalScope": false
       },
       "../src/prisma/generated/type-graphql/resolvers/crud/User/args/FindManyUserArgs.ts": {
-        "version": "641a75a408f5d2a3fd6c9c4f67380c712fb10a6b3d7a8dcc1b0caff0666c8841",
-        "signature": "5a3378fb209124078ebc647eddb72496607fd8908b26143ae7e436f7a83f6e99",
+        "version": "13f7561d0a69a97314c2e731e6ddda39c60630fe5edec211ef96c3d6dae3b1f0",
+        "signature": "9df781de5bb2cef90f9f33ffc25937d2a1ac70f353018e4b3959efedfd8da06d",
         "affectsGlobalScope": false
       },
       "../src/prisma/generated/type-graphql/resolvers/crud/User/args/FindOneUserArgs.ts": {
@@ -5901,8 +5926,8 @@
         "affectsGlobalScope": false
       },
       "../src/prisma/generated/type-graphql/resolvers/relations/Role/args/RoleUsersArgs.ts": {
-        "version": "8ad73edd9e6b12bf31d91e4c6dcf023aca8ad097e30d0e9a3bb6b39b1b3bd841",
-        "signature": "0a8b224593d1e9480801a66354ae9be368ccfcd81a509ceb01f4ad5a64596a24",
+        "version": "777455dc9463e8db8d0c54d33ae1ed9a5fbd09158ae733db09738e68faddd229",
+        "signature": "84a587f8a87a68f2baf0aca5042b0598bf5709ef189acac099acd6872e95b2e0",
         "affectsGlobalScope": false
       },
       "../src/prisma/generated/type-graphql/resolvers/relations/Role/RoleRelationsResolver.ts": {
@@ -5925,9 +5950,14 @@
         "signature": "07424144b4730cb66450f92cf3ef42c003dc3d041683262e7624867686919570",
         "affectsGlobalScope": false
       },
+      "../src/prisma/generated/type-graphql/resolvers/inputs/RoleRelationFilter.ts": {
+        "version": "1583b777edce6fb619318520a146150ace5f965480f3b09d1e3ac852b134f5f9",
+        "signature": "03a46afa0e4fd6b194b7b6f94eb4c6b0f886a495a726522b85b5d27459e2173e",
+        "affectsGlobalScope": false
+      },
       "../src/prisma/generated/type-graphql/resolvers/inputs/index.ts": {
-        "version": "1fb6db995df5abf9e756b79b0cdaa6718217daca4d21c6ab9d033681a9de3600",
-        "signature": "1fb6db995df5abf9e756b79b0cdaa6718217daca4d21c6ab9d033681a9de3600",
+        "version": "c6bc7ca881fb91dec04571eb11c2e77f0605754945c37afa498624e929910382",
+        "signature": "c6bc7ca881fb91dec04571eb11c2e77f0605754945c37afa498624e929910382",
         "affectsGlobalScope": false
       },
       "../src/prisma/generated/type-graphql/resolvers/outputs/index.ts": {
@@ -5941,12 +5971,12 @@
         "affectsGlobalScope": false
       },
       "../src/app.module.ts": {
-        "version": "9e4c63f4ab8b5feb24225021bdb9628da89a24478ce460ac07f8ad47def50a46",
+        "version": "ae408e8efb157ef5aad2441ecce0570df3f14a5eac7afa4816b465d9beecf493",
         "signature": "b82491e2990291580288c5602d4c017238977749d52b17391f0e45d9a29be644",
         "affectsGlobalScope": false
       },
       "../src/main.ts": {
-        "version": "c77cdf4dcff98d5f7768279719ee242cb64c0b6f7c9ae8d43233433bce346cc1",
+        "version": "4fa983989b58c9ed192e3678312aa78a829306d9c27724fa38dbe9f116e069f6",
         "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
         "affectsGlobalScope": false
       },
@@ -6116,63 +6146,63 @@
         "affectsGlobalScope": false
       },
       "../node_modules/@types/semver/classes/semver.d.ts": {
-        "version": "9e6975cf0b1095af433b1eebd0498af85a02f1d7cd7e9cca19a837229e9b6722",
-        "signature": "9e6975cf0b1095af433b1eebd0498af85a02f1d7cd7e9cca19a837229e9b6722",
+        "version": "d9e55d93aa33fad61bd5c63800972d00ba8879ec5d29f6f3bce67d16d86abc33",
+        "signature": "d9e55d93aa33fad61bd5c63800972d00ba8879ec5d29f6f3bce67d16d86abc33",
         "affectsGlobalScope": false
       },
       "../node_modules/@types/semver/functions/parse.d.ts": {
-        "version": "f25b858b85a866a2c2d3d76931015f461f2411ed1f9632c5078f6057395a2953",
-        "signature": "f25b858b85a866a2c2d3d76931015f461f2411ed1f9632c5078f6057395a2953",
+        "version": "2ac9c8332c5f8510b8bdd571f8271e0f39b0577714d5e95c1e79a12b2616f069",
+        "signature": "2ac9c8332c5f8510b8bdd571f8271e0f39b0577714d5e95c1e79a12b2616f069",
         "affectsGlobalScope": false
       },
       "../node_modules/@types/semver/functions/valid.d.ts": {
-        "version": "aa1edccbdbf6d46ee703e645343b63fc9f55298aade357b9a32d39a6c1c7df63",
-        "signature": "aa1edccbdbf6d46ee703e645343b63fc9f55298aade357b9a32d39a6c1c7df63",
+        "version": "42c21aa963e7b86fa00801d96e88b36803188018d5ad91db2a9101bccd40b3ff",
+        "signature": "42c21aa963e7b86fa00801d96e88b36803188018d5ad91db2a9101bccd40b3ff",
         "affectsGlobalScope": false
       },
       "../node_modules/@types/semver/functions/clean.d.ts": {
-        "version": "55ca133bf28d14756551b14403db076ca40abdb9dd1cdc0ac5f9e69e75305f3a",
-        "signature": "55ca133bf28d14756551b14403db076ca40abdb9dd1cdc0ac5f9e69e75305f3a",
+        "version": "d31eb848cdebb4c55b4893b335a7c0cca95ad66dee13cbb7d0893810c0a9c301",
+        "signature": "d31eb848cdebb4c55b4893b335a7c0cca95ad66dee13cbb7d0893810c0a9c301",
         "affectsGlobalScope": false
       },
       "../node_modules/@types/semver/functions/inc.d.ts": {
-        "version": "1a32e8f6e0b0355b38b1b84468d87569aa8dd417413acf1b0401d2635ced092d",
-        "signature": "1a32e8f6e0b0355b38b1b84468d87569aa8dd417413acf1b0401d2635ced092d",
+        "version": "77c1d91a129ba60b8c405f9f539e42df834afb174fe0785f89d92a2c7c16b77a",
+        "signature": "77c1d91a129ba60b8c405f9f539e42df834afb174fe0785f89d92a2c7c16b77a",
         "affectsGlobalScope": false
       },
       "../node_modules/@types/semver/functions/diff.d.ts": {
-        "version": "e5995912322aa71d87fd9e3b52c7079ec462b3ba298a326f0f04646b6437c0e4",
-        "signature": "e5995912322aa71d87fd9e3b52c7079ec462b3ba298a326f0f04646b6437c0e4",
+        "version": "c544d81603149987796b24cca297c965db427b84b2580fb27e52fb37ddc1f470",
+        "signature": "c544d81603149987796b24cca297c965db427b84b2580fb27e52fb37ddc1f470",
         "affectsGlobalScope": false
       },
       "../node_modules/@types/semver/functions/major.d.ts": {
-        "version": "e59b506fa1621eaa48567155a73cc264fb69597234500962d5c99ca2cbf5dcfd",
-        "signature": "e59b506fa1621eaa48567155a73cc264fb69597234500962d5c99ca2cbf5dcfd",
+        "version": "906c751ef5822ec0dadcea2f0e9db64a33fb4ee926cc9f7efa38afe5d5371b2a",
+        "signature": "906c751ef5822ec0dadcea2f0e9db64a33fb4ee926cc9f7efa38afe5d5371b2a",
         "affectsGlobalScope": false
       },
       "../node_modules/@types/semver/functions/minor.d.ts": {
-        "version": "1d874fdf6944039b9a841f14f9acf225c636b4076d0e4acf6b7a7b88291ad117",
-        "signature": "1d874fdf6944039b9a841f14f9acf225c636b4076d0e4acf6b7a7b88291ad117",
+        "version": "5387c049e9702f2d2d7ece1a74836a14b47fbebe9bbeb19f94c580a37c855351",
+        "signature": "5387c049e9702f2d2d7ece1a74836a14b47fbebe9bbeb19f94c580a37c855351",
         "affectsGlobalScope": false
       },
       "../node_modules/@types/semver/functions/patch.d.ts": {
-        "version": "fcca9875c9a0617fbe8008ad2d2df300c19f54296907834c56c77c2a9411e841",
-        "signature": "fcca9875c9a0617fbe8008ad2d2df300c19f54296907834c56c77c2a9411e841",
+        "version": "c68391fb9efad5d99ff332c65b1606248c4e4a9f1dd9a087204242b56c7126d6",
+        "signature": "c68391fb9efad5d99ff332c65b1606248c4e4a9f1dd9a087204242b56c7126d6",
         "affectsGlobalScope": false
       },
       "../node_modules/@types/semver/functions/prerelease.d.ts": {
-        "version": "ffebeb335146d8a85fae6627a1777ca7fb4b833ed2ed147dfe71691ce2b36e8e",
-        "signature": "ffebeb335146d8a85fae6627a1777ca7fb4b833ed2ed147dfe71691ce2b36e8e",
+        "version": "758e82e32536b66a139e34bb7e067dd860b563070f9746a0ae5cd802588f4def",
+        "signature": "758e82e32536b66a139e34bb7e067dd860b563070f9746a0ae5cd802588f4def",
         "affectsGlobalScope": false
       },
       "../node_modules/@types/semver/functions/compare.d.ts": {
-        "version": "ea68d3bdeb7fc7a39772ff27d21e01a6a6c68c12877ba960d314649389ffd111",
-        "signature": "ea68d3bdeb7fc7a39772ff27d21e01a6a6c68c12877ba960d314649389ffd111",
+        "version": "e8b02b879754d85f48489294f99147aeccc352c760d95a6fe2b6e49cd400b2fe",
+        "signature": "e8b02b879754d85f48489294f99147aeccc352c760d95a6fe2b6e49cd400b2fe",
         "affectsGlobalScope": false
       },
       "../node_modules/@types/semver/functions/rcompare.d.ts": {
-        "version": "34de169048a5267c472e1cf562c4a575e805683ea18f88518019f624a23e53d9",
-        "signature": "34de169048a5267c472e1cf562c4a575e805683ea18f88518019f624a23e53d9",
+        "version": "9f6908ab3d8a86c68b86e38578afc7095114e66b2fc36a2a96e9252aac3998e0",
+        "signature": "9f6908ab3d8a86c68b86e38578afc7095114e66b2fc36a2a96e9252aac3998e0",
         "affectsGlobalScope": false
       },
       "../node_modules/@types/semver/functions/compare-loose.d.ts": {
@@ -6186,123 +6216,123 @@
         "affectsGlobalScope": false
       },
       "../node_modules/@types/semver/functions/sort.d.ts": {
-        "version": "2155c677d647aad82674498fd473cf77598355ef479844224f79bc4a1e4fffce",
-        "signature": "2155c677d647aad82674498fd473cf77598355ef479844224f79bc4a1e4fffce",
+        "version": "c68baff4d8ba346130e9753cefe2e487a16731bf17e05fdacc81e8c9a26aae9d",
+        "signature": "c68baff4d8ba346130e9753cefe2e487a16731bf17e05fdacc81e8c9a26aae9d",
         "affectsGlobalScope": false
       },
       "../node_modules/@types/semver/functions/rsort.d.ts": {
-        "version": "3cec507f07190f2fdffb93b3a3ea2b161061015d16fac9ee48d0bf717631310a",
-        "signature": "3cec507f07190f2fdffb93b3a3ea2b161061015d16fac9ee48d0bf717631310a",
+        "version": "2cd15528d8bb5d0453aa339b4b52e0696e8b07e790c153831c642c3dea5ac8af",
+        "signature": "2cd15528d8bb5d0453aa339b4b52e0696e8b07e790c153831c642c3dea5ac8af",
         "affectsGlobalScope": false
       },
       "../node_modules/@types/semver/functions/gt.d.ts": {
-        "version": "271095be81df8b130167e2cfa1882d84280a8bcffa59b50716e57818bbe9ad6d",
-        "signature": "271095be81df8b130167e2cfa1882d84280a8bcffa59b50716e57818bbe9ad6d",
+        "version": "479d622e66283ffa9883fbc33e441f7fc928b2277ff30aacbec7b7761b4e9579",
+        "signature": "479d622e66283ffa9883fbc33e441f7fc928b2277ff30aacbec7b7761b4e9579",
         "affectsGlobalScope": false
       },
       "../node_modules/@types/semver/functions/lt.d.ts": {
-        "version": "a982221baea5467bbbaddf1d46c3fdfab20073c7ced35869feecfcb4e39c28ac",
-        "signature": "a982221baea5467bbbaddf1d46c3fdfab20073c7ced35869feecfcb4e39c28ac",
+        "version": "ade307876dc5ca267ca308d09e737b611505e015c535863f22420a11fffc1c54",
+        "signature": "ade307876dc5ca267ca308d09e737b611505e015c535863f22420a11fffc1c54",
         "affectsGlobalScope": false
       },
       "../node_modules/@types/semver/functions/eq.d.ts": {
-        "version": "94b06460133208aaf61f01d6be479cba513c2413ad52645a9806c69e65a04b17",
-        "signature": "94b06460133208aaf61f01d6be479cba513c2413ad52645a9806c69e65a04b17",
+        "version": "f8cdefa3e0dee639eccbe9794b46f90291e5fd3989fcba60d2f08fde56179fb9",
+        "signature": "f8cdefa3e0dee639eccbe9794b46f90291e5fd3989fcba60d2f08fde56179fb9",
         "affectsGlobalScope": false
       },
       "../node_modules/@types/semver/functions/neq.d.ts": {
-        "version": "5d4a5730e1d010e2b117ee1e9876783586f8c9e9da1976664fc0ff3bdcfb0ed6",
-        "signature": "5d4a5730e1d010e2b117ee1e9876783586f8c9e9da1976664fc0ff3bdcfb0ed6",
+        "version": "86c5a62f99aac7053976e317dbe9acb2eaf903aaf3d2e5bb1cafe5c2df7b37a8",
+        "signature": "86c5a62f99aac7053976e317dbe9acb2eaf903aaf3d2e5bb1cafe5c2df7b37a8",
         "affectsGlobalScope": false
       },
       "../node_modules/@types/semver/functions/gte.d.ts": {
-        "version": "2a4bc0a2dfb607d4dc64ddf4a8bd95675c4b344170075d080617040ca8f8788b",
-        "signature": "2a4bc0a2dfb607d4dc64ddf4a8bd95675c4b344170075d080617040ca8f8788b",
+        "version": "2b300954ce01a8343866f737656e13243e86e5baef51bd0631b21dcef1f6e954",
+        "signature": "2b300954ce01a8343866f737656e13243e86e5baef51bd0631b21dcef1f6e954",
         "affectsGlobalScope": false
       },
       "../node_modules/@types/semver/functions/lte.d.ts": {
-        "version": "ba2734a02d311863f7758f9bd258d7f5e67b58c5d002e3f87951607171c1eef4",
-        "signature": "ba2734a02d311863f7758f9bd258d7f5e67b58c5d002e3f87951607171c1eef4",
+        "version": "a2d409a9ffd872d6b9d78ead00baa116bbc73cfa959fce9a2f29d3227876b2a1",
+        "signature": "a2d409a9ffd872d6b9d78ead00baa116bbc73cfa959fce9a2f29d3227876b2a1",
         "affectsGlobalScope": false
       },
       "../node_modules/@types/semver/functions/cmp.d.ts": {
-        "version": "908877cfe2edfff50b94c312bed96ac6cd74a5e93ee471de1bfe7ed7ef861e74",
-        "signature": "908877cfe2edfff50b94c312bed96ac6cd74a5e93ee471de1bfe7ed7ef861e74",
+        "version": "b288936f560cd71f4a6002953290de9ff8dfbfbf37f5a9391be5c83322324898",
+        "signature": "b288936f560cd71f4a6002953290de9ff8dfbfbf37f5a9391be5c83322324898",
         "affectsGlobalScope": false
       },
       "../node_modules/@types/semver/functions/coerce.d.ts": {
-        "version": "44b157ef6c4ded3f6b0a0494c899edb4502e7c7cf38193b3693efa4d9a94810e",
-        "signature": "44b157ef6c4ded3f6b0a0494c899edb4502e7c7cf38193b3693efa4d9a94810e",
+        "version": "61178a781ef82e0ff54f9430397e71e8f365fc1e3725e0e5346f2de7b0d50dfa",
+        "signature": "61178a781ef82e0ff54f9430397e71e8f365fc1e3725e0e5346f2de7b0d50dfa",
         "affectsGlobalScope": false
       },
       "../node_modules/@types/semver/classes/comparator.d.ts": {
-        "version": "5ff56f6c2212fd5fb5ba2435282ed35021962ed3dbbd3a46fe973985bb73f70f",
-        "signature": "5ff56f6c2212fd5fb5ba2435282ed35021962ed3dbbd3a46fe973985bb73f70f",
+        "version": "5349dc09f88a35d52dc0bf24c44ebfd10dcb13e052d79133a56e1ac127162a4d",
+        "signature": "5349dc09f88a35d52dc0bf24c44ebfd10dcb13e052d79133a56e1ac127162a4d",
         "affectsGlobalScope": false
       },
       "../node_modules/@types/semver/classes/range.d.ts": {
-        "version": "c2d595df1bad709f1d861e5b874c31bed79c19aaa6b10b9ec16b44b597d12afb",
-        "signature": "c2d595df1bad709f1d861e5b874c31bed79c19aaa6b10b9ec16b44b597d12afb",
+        "version": "6eef5113135a0f2bbac8259909a5bbb7666bcde022c28f4ab95145623cbe1f72",
+        "signature": "6eef5113135a0f2bbac8259909a5bbb7666bcde022c28f4ab95145623cbe1f72",
         "affectsGlobalScope": false
       },
       "../node_modules/@types/semver/functions/satisfies.d.ts": {
-        "version": "5bc76884b68fd1156fa9b32d26c380a2b00a5f9fb499ce24929cc94f72fd8a9e",
-        "signature": "5bc76884b68fd1156fa9b32d26c380a2b00a5f9fb499ce24929cc94f72fd8a9e",
+        "version": "058b8dd97b7c67b6bf33e7bda7b1e247b019b675d4b6449d14ac002091a8b4f8",
+        "signature": "058b8dd97b7c67b6bf33e7bda7b1e247b019b675d4b6449d14ac002091a8b4f8",
         "affectsGlobalScope": false
       },
       "../node_modules/@types/semver/ranges/max-satisfying.d.ts": {
-        "version": "f4bfabb664153ca62c78d996c8f7d4ecd15edbbc8d18819e96d7435cdb821939",
-        "signature": "f4bfabb664153ca62c78d996c8f7d4ecd15edbbc8d18819e96d7435cdb821939",
+        "version": "89c8a7b88c378663a8124664f2d9b8c2887e186b55aa066edf6d67177ca1aa04",
+        "signature": "89c8a7b88c378663a8124664f2d9b8c2887e186b55aa066edf6d67177ca1aa04",
         "affectsGlobalScope": false
       },
       "../node_modules/@types/semver/ranges/min-satisfying.d.ts": {
-        "version": "06c2c4176ef57591d1e6c7008d52d71372efddbbd81bb0139efb770a36812af7",
-        "signature": "06c2c4176ef57591d1e6c7008d52d71372efddbbd81bb0139efb770a36812af7",
+        "version": "5a30ba65ad753eb2ef65355dbb3011b28b192cb9df2ef0b5f595b51ca7faf353",
+        "signature": "5a30ba65ad753eb2ef65355dbb3011b28b192cb9df2ef0b5f595b51ca7faf353",
         "affectsGlobalScope": false
       },
       "../node_modules/@types/semver/ranges/to-comparators.d.ts": {
-        "version": "16df90604f2c60da2687efe67de611ba323b2e6a922874bf31ec6aad72e08ed2",
-        "signature": "16df90604f2c60da2687efe67de611ba323b2e6a922874bf31ec6aad72e08ed2",
+        "version": "5192f9a6469f849e0863616b668fde54bcd6704394b4bfbd115691865f66d761",
+        "signature": "5192f9a6469f849e0863616b668fde54bcd6704394b4bfbd115691865f66d761",
         "affectsGlobalScope": false
       },
       "../node_modules/@types/semver/ranges/min-version.d.ts": {
-        "version": "c74a0c397b3e35eb3fa7098c413f6908495d1fe1254e4d373a72da8eef999b63",
-        "signature": "c74a0c397b3e35eb3fa7098c413f6908495d1fe1254e4d373a72da8eef999b63",
+        "version": "f41d30972724714763a2698ae949fbc463afb203b5fa7c4ad7e4de0871129a17",
+        "signature": "f41d30972724714763a2698ae949fbc463afb203b5fa7c4ad7e4de0871129a17",
         "affectsGlobalScope": false
       },
       "../node_modules/@types/semver/ranges/valid.d.ts": {
-        "version": "ead194b3eca20113ac04b5c7cd76a59b451df84bd84df9ebb8cdc0ab545cb097",
-        "signature": "ead194b3eca20113ac04b5c7cd76a59b451df84bd84df9ebb8cdc0ab545cb097",
+        "version": "0123340327efb174818f4b78bf6a9b12f8470754e6afac9e4d32a2ad27521f7b",
+        "signature": "0123340327efb174818f4b78bf6a9b12f8470754e6afac9e4d32a2ad27521f7b",
         "affectsGlobalScope": false
       },
       "../node_modules/@types/semver/ranges/outside.d.ts": {
-        "version": "697882d97df41aacc1ecb9320483ad6da7ef51f73c8d9118f71048f3c3a80b7d",
-        "signature": "697882d97df41aacc1ecb9320483ad6da7ef51f73c8d9118f71048f3c3a80b7d",
+        "version": "9795e0a3a45d5b6f1a791ee54b7c8b58bc931e8900966cea2dff9c5bae56073b",
+        "signature": "9795e0a3a45d5b6f1a791ee54b7c8b58bc931e8900966cea2dff9c5bae56073b",
         "affectsGlobalScope": false
       },
       "../node_modules/@types/semver/ranges/gtr.d.ts": {
-        "version": "99c08b6b0d65c0ec55411a55bc0ac7673835a7c1565ecc6f314bf78330ce7d95",
-        "signature": "99c08b6b0d65c0ec55411a55bc0ac7673835a7c1565ecc6f314bf78330ce7d95",
+        "version": "5890be29879d02424b7654f40592915189034948f7a18c5ad121c006d4e92811",
+        "signature": "5890be29879d02424b7654f40592915189034948f7a18c5ad121c006d4e92811",
         "affectsGlobalScope": false
       },
       "../node_modules/@types/semver/ranges/ltr.d.ts": {
-        "version": "f09b5b78b5c31d85a57e5ea5491dec61a1f666a6d7ddc04fada0ba641aaeb8f5",
-        "signature": "f09b5b78b5c31d85a57e5ea5491dec61a1f666a6d7ddc04fada0ba641aaeb8f5",
+        "version": "0ab49086f10c75a1cb3b18bffe799dae021774146d8a2d5a4bb42dda67b64f9b",
+        "signature": "0ab49086f10c75a1cb3b18bffe799dae021774146d8a2d5a4bb42dda67b64f9b",
         "affectsGlobalScope": false
       },
       "../node_modules/@types/semver/ranges/intersects.d.ts": {
-        "version": "453ab4b37dd377e9c7371183c22a1a8550ccb19899cac5be4994044b878e306b",
-        "signature": "453ab4b37dd377e9c7371183c22a1a8550ccb19899cac5be4994044b878e306b",
+        "version": "81c77839e152b8f715ec67b0a8b910bcc2d6cf916794c3519f8798c40efd12ac",
+        "signature": "81c77839e152b8f715ec67b0a8b910bcc2d6cf916794c3519f8798c40efd12ac",
         "affectsGlobalScope": false
       },
       "../node_modules/@types/semver/ranges/simplify.d.ts": {
-        "version": "361f476fd3e51fa18fcf67bcdd84d070300c8f1e8c7f059860c85a2d042b3f12",
-        "signature": "361f476fd3e51fa18fcf67bcdd84d070300c8f1e8c7f059860c85a2d042b3f12",
+        "version": "a868a534ba1c2ca9060b8a13b0ffbbbf78b4be7b0ff80d8c75b02773f7192c29",
+        "signature": "a868a534ba1c2ca9060b8a13b0ffbbbf78b4be7b0ff80d8c75b02773f7192c29",
         "affectsGlobalScope": false
       },
       "../node_modules/@types/semver/ranges/subset.d.ts": {
-        "version": "6aacf83291310b13a9eab4dc7d32b03ea432661e07dcd63cd25cf1410af0c2a8",
-        "signature": "6aacf83291310b13a9eab4dc7d32b03ea432661e07dcd63cd25cf1410af0c2a8",
+        "version": "464843c00fb3dd4735b28255c5c9fe713f16b8e47a3db09ba1647687440f7aef",
+        "signature": "464843c00fb3dd4735b28255c5c9fe713f16b8e47a3db09ba1647687440f7aef",
         "affectsGlobalScope": false
       },
       "../node_modules/@types/semver/internals/identifiers.d.ts": {
@@ -6311,8 +6341,8 @@
         "affectsGlobalScope": false
       },
       "../node_modules/@types/semver/index.d.ts": {
-        "version": "18b8a027be8f0426d5df8fe6b7564ef98794cc1ae16e0fc1cf7062e3fdb8cf64",
-        "signature": "18b8a027be8f0426d5df8fe6b7564ef98794cc1ae16e0fc1cf7062e3fdb8cf64",
+        "version": "41bb9359a54ad129afe65966658778807b9ea4fa2ae062704b31fb22b34d4117",
+        "signature": "41bb9359a54ad129afe65966658778807b9ea4fa2ae062704b31fb22b34d4117",
         "affectsGlobalScope": false
       },
       "../node_modules/@types/source-list-map/index.d.ts": {
@@ -11773,7 +11803,6 @@
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts",
-        "../node_modules/@types/node/ts3.7/index.d.ts",
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/semver/classes/comparator.d.ts",
         "../node_modules/@types/semver/classes/range.d.ts",
@@ -17539,7 +17568,23 @@
         "../node_modules/@types/node/util.d.ts",
         "../src/app.module.ts"
       ],
+      "../src/prisma/generated/type-graphql/enums/RoleDistinctFieldEnum.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/type-graphql/dist/index.d.ts"
+      ],
       "../src/prisma/generated/type-graphql/enums/SortOrder.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/type-graphql/dist/index.d.ts"
+      ],
+      "../src/prisma/generated/type-graphql/enums/UserDistinctFieldEnum.ts": [
         "../node_modules/@types/graceful-fs/index.d.ts",
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.2/fs.d.ts",
@@ -17553,7 +17598,9 @@
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts",
-        "../src/prisma/generated/type-graphql/enums/SortOrder.ts"
+        "../src/prisma/generated/type-graphql/enums/RoleDistinctFieldEnum.ts",
+        "../src/prisma/generated/type-graphql/enums/SortOrder.ts",
+        "../src/prisma/generated/type-graphql/enums/UserDistinctFieldEnum.ts"
       ],
       "../src/prisma/generated/type-graphql/index.ts": [
         "../node_modules/@types/graceful-fs/index.d.ts",
@@ -17724,6 +17771,7 @@
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/graphql-type-json/lib/index.d.ts",
         "../node_modules/type-graphql/dist/index.d.ts",
+        "../src/prisma/generated/type-graphql/enums/RoleDistinctFieldEnum.ts",
         "../src/prisma/generated/type-graphql/resolvers/inputs/RoleOrderByInput.ts",
         "../src/prisma/generated/type-graphql/resolvers/inputs/RoleWhereInput.ts",
         "../src/prisma/generated/type-graphql/resolvers/inputs/RoleWhereUniqueInput.ts"
@@ -17766,6 +17814,7 @@
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/graphql-type-json/lib/index.d.ts",
         "../node_modules/type-graphql/dist/index.d.ts",
+        "../src/prisma/generated/type-graphql/enums/RoleDistinctFieldEnum.ts",
         "../src/prisma/generated/type-graphql/resolvers/inputs/RoleOrderByInput.ts",
         "../src/prisma/generated/type-graphql/resolvers/inputs/RoleWhereInput.ts",
         "../src/prisma/generated/type-graphql/resolvers/inputs/RoleWhereUniqueInput.ts"
@@ -17955,6 +18004,7 @@
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/graphql-type-json/lib/index.d.ts",
         "../node_modules/type-graphql/dist/index.d.ts",
+        "../src/prisma/generated/type-graphql/enums/UserDistinctFieldEnum.ts",
         "../src/prisma/generated/type-graphql/resolvers/inputs/UserOrderByInput.ts",
         "../src/prisma/generated/type-graphql/resolvers/inputs/UserWhereInput.ts",
         "../src/prisma/generated/type-graphql/resolvers/inputs/UserWhereUniqueInput.ts"
@@ -17997,6 +18047,7 @@
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/graphql-type-json/lib/index.d.ts",
         "../node_modules/type-graphql/dist/index.d.ts",
+        "../src/prisma/generated/type-graphql/enums/UserDistinctFieldEnum.ts",
         "../src/prisma/generated/type-graphql/resolvers/inputs/UserOrderByInput.ts",
         "../src/prisma/generated/type-graphql/resolvers/inputs/UserWhereInput.ts",
         "../src/prisma/generated/type-graphql/resolvers/inputs/UserWhereUniqueInput.ts"
@@ -18098,9 +18149,30 @@
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/graphql-type-json/lib/index.d.ts",
         "../node_modules/type-graphql/dist/index.d.ts",
+        "../prisma/client/index.d.ts",
+        "../src/prisma/generated/type-graphql/resolvers/inputs/NestedDateTimeFilter.ts"
+      ],
+      "../src/prisma/generated/type-graphql/resolvers/inputs/NestedDateTimeFilter.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/graphql-type-json/lib/index.d.ts",
+        "../node_modules/type-graphql/dist/index.d.ts",
         "../prisma/client/index.d.ts"
       ],
-      "../src/prisma/generated/type-graphql/resolvers/inputs/NullableStringFilter.ts": [
+      "../src/prisma/generated/type-graphql/resolvers/inputs/NestedStringFilter.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/graphql-type-json/lib/index.d.ts",
+        "../node_modules/type-graphql/dist/index.d.ts",
+        "../prisma/client/index.d.ts"
+      ],
+      "../src/prisma/generated/type-graphql/resolvers/inputs/NestedStringNullableFilter.ts": [
         "../node_modules/@types/graceful-fs/index.d.ts",
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.2/fs.d.ts",
@@ -18153,6 +18225,17 @@
         "../node_modules/type-graphql/dist/index.d.ts",
         "../prisma/client/index.d.ts",
         "../src/prisma/generated/type-graphql/enums/SortOrder.ts"
+      ],
+      "../src/prisma/generated/type-graphql/resolvers/inputs/RoleRelationFilter.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/graphql-type-json/lib/index.d.ts",
+        "../node_modules/type-graphql/dist/index.d.ts",
+        "../prisma/client/index.d.ts",
+        "../src/prisma/generated/type-graphql/resolvers/inputs/RoleWhereInput.ts"
       ],
       "../src/prisma/generated/type-graphql/resolvers/inputs/RoleUpdateInput.ts": [
         "../node_modules/@types/graceful-fs/index.d.ts",
@@ -18221,9 +18304,9 @@
         "../node_modules/type-graphql/dist/index.d.ts",
         "../prisma/client/index.d.ts",
         "../src/prisma/generated/type-graphql/resolvers/inputs/DateTimeFilter.ts",
-        "../src/prisma/generated/type-graphql/resolvers/inputs/NullableStringFilter.ts",
         "../src/prisma/generated/type-graphql/resolvers/inputs/StringFilter.ts",
-        "../src/prisma/generated/type-graphql/resolvers/inputs/UserFilter.ts"
+        "../src/prisma/generated/type-graphql/resolvers/inputs/StringNullableFilter.ts",
+        "../src/prisma/generated/type-graphql/resolvers/inputs/UserListRelationFilter.ts"
       ],
       "../src/prisma/generated/type-graphql/resolvers/inputs/RoleWhereUniqueInput.ts": [
         "../node_modules/@types/graceful-fs/index.d.ts",
@@ -18243,7 +18326,19 @@
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/graphql-type-json/lib/index.d.ts",
         "../node_modules/type-graphql/dist/index.d.ts",
-        "../prisma/client/index.d.ts"
+        "../prisma/client/index.d.ts",
+        "../src/prisma/generated/type-graphql/resolvers/inputs/NestedStringFilter.ts"
+      ],
+      "../src/prisma/generated/type-graphql/resolvers/inputs/StringNullableFilter.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/graphql-type-json/lib/index.d.ts",
+        "../node_modules/type-graphql/dist/index.d.ts",
+        "../prisma/client/index.d.ts",
+        "../src/prisma/generated/type-graphql/resolvers/inputs/NestedStringNullableFilter.ts"
       ],
       "../src/prisma/generated/type-graphql/resolvers/inputs/UserCreateInput.ts": [
         "../node_modules/@types/graceful-fs/index.d.ts",
@@ -18278,7 +18373,7 @@
         "../node_modules/type-graphql/dist/index.d.ts",
         "../prisma/client/index.d.ts"
       ],
-      "../src/prisma/generated/type-graphql/resolvers/inputs/UserFilter.ts": [
+      "../src/prisma/generated/type-graphql/resolvers/inputs/UserListRelationFilter.ts": [
         "../node_modules/@types/graceful-fs/index.d.ts",
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.2/fs.d.ts",
@@ -18436,11 +18531,14 @@
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts",
         "../src/prisma/generated/type-graphql/resolvers/inputs/DateTimeFilter.ts",
-        "../src/prisma/generated/type-graphql/resolvers/inputs/NullableStringFilter.ts",
+        "../src/prisma/generated/type-graphql/resolvers/inputs/NestedDateTimeFilter.ts",
+        "../src/prisma/generated/type-graphql/resolvers/inputs/NestedStringFilter.ts",
+        "../src/prisma/generated/type-graphql/resolvers/inputs/NestedStringNullableFilter.ts",
         "../src/prisma/generated/type-graphql/resolvers/inputs/RoleCreateInput.ts",
         "../src/prisma/generated/type-graphql/resolvers/inputs/RoleCreateOneWithoutUsersInput.ts",
         "../src/prisma/generated/type-graphql/resolvers/inputs/RoleCreateWithoutUsersInput.ts",
         "../src/prisma/generated/type-graphql/resolvers/inputs/RoleOrderByInput.ts",
+        "../src/prisma/generated/type-graphql/resolvers/inputs/RoleRelationFilter.ts",
         "../src/prisma/generated/type-graphql/resolvers/inputs/RoleUpdateInput.ts",
         "../src/prisma/generated/type-graphql/resolvers/inputs/RoleUpdateManyMutationInput.ts",
         "../src/prisma/generated/type-graphql/resolvers/inputs/RoleUpdateOneRequiredWithoutUsersInput.ts",
@@ -18449,10 +18547,11 @@
         "../src/prisma/generated/type-graphql/resolvers/inputs/RoleWhereInput.ts",
         "../src/prisma/generated/type-graphql/resolvers/inputs/RoleWhereUniqueInput.ts",
         "../src/prisma/generated/type-graphql/resolvers/inputs/StringFilter.ts",
+        "../src/prisma/generated/type-graphql/resolvers/inputs/StringNullableFilter.ts",
         "../src/prisma/generated/type-graphql/resolvers/inputs/UserCreateInput.ts",
         "../src/prisma/generated/type-graphql/resolvers/inputs/UserCreateManyWithoutRoleInput.ts",
         "../src/prisma/generated/type-graphql/resolvers/inputs/UserCreateWithoutRoleInput.ts",
-        "../src/prisma/generated/type-graphql/resolvers/inputs/UserFilter.ts",
+        "../src/prisma/generated/type-graphql/resolvers/inputs/UserListRelationFilter.ts",
         "../src/prisma/generated/type-graphql/resolvers/inputs/UserOrderByInput.ts",
         "../src/prisma/generated/type-graphql/resolvers/inputs/UserScalarWhereInput.ts",
         "../src/prisma/generated/type-graphql/resolvers/inputs/UserUpdateInput.ts",
@@ -18525,6 +18624,7 @@
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/graphql-type-json/lib/index.d.ts",
         "../node_modules/type-graphql/dist/index.d.ts",
+        "../src/prisma/generated/type-graphql/enums/UserDistinctFieldEnum.ts",
         "../src/prisma/generated/type-graphql/resolvers/inputs/UserOrderByInput.ts",
         "../src/prisma/generated/type-graphql/resolvers/inputs/UserWhereInput.ts",
         "../src/prisma/generated/type-graphql/resolvers/inputs/UserWhereUniqueInput.ts"
@@ -23923,7 +24023,6 @@
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts",
-        "../node_modules/@types/node/ts3.7/index.d.ts",
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/semver/classes/comparator.d.ts",
         "../node_modules/@types/semver/classes/range.d.ts",
@@ -29653,7 +29752,9 @@
         "../src/app.service.ts"
       ],
       "../src/prisma/generated/type-graphql/enums/index.ts": [
-        "../src/prisma/generated/type-graphql/enums/SortOrder.ts"
+        "../src/prisma/generated/type-graphql/enums/RoleDistinctFieldEnum.ts",
+        "../src/prisma/generated/type-graphql/enums/SortOrder.ts",
+        "../src/prisma/generated/type-graphql/enums/UserDistinctFieldEnum.ts"
       ],
       "../src/prisma/generated/type-graphql/index.ts": [
         "../src/prisma/generated/type-graphql/enums/index.ts",
@@ -29726,6 +29827,7 @@
         "../src/prisma/generated/type-graphql/resolvers/crud/Role/args/UpsertRoleArgs.ts"
       ],
       "../src/prisma/generated/type-graphql/resolvers/crud/Role/args/AggregateRoleArgs.ts": [
+        "../src/prisma/generated/type-graphql/enums/RoleDistinctFieldEnum.ts",
         "../src/prisma/generated/type-graphql/resolvers/inputs/RoleOrderByInput.ts",
         "../src/prisma/generated/type-graphql/resolvers/inputs/RoleWhereInput.ts",
         "../src/prisma/generated/type-graphql/resolvers/inputs/RoleWhereUniqueInput.ts"
@@ -29740,6 +29842,7 @@
         "../src/prisma/generated/type-graphql/resolvers/inputs/RoleWhereUniqueInput.ts"
       ],
       "../src/prisma/generated/type-graphql/resolvers/crud/Role/args/FindManyRoleArgs.ts": [
+        "../src/prisma/generated/type-graphql/enums/RoleDistinctFieldEnum.ts",
         "../src/prisma/generated/type-graphql/resolvers/inputs/RoleOrderByInput.ts",
         "../src/prisma/generated/type-graphql/resolvers/inputs/RoleWhereInput.ts",
         "../src/prisma/generated/type-graphql/resolvers/inputs/RoleWhereUniqueInput.ts"
@@ -29824,6 +29927,7 @@
         "../src/prisma/generated/type-graphql/resolvers/outputs/BatchPayload.ts"
       ],
       "../src/prisma/generated/type-graphql/resolvers/crud/User/args/AggregateUserArgs.ts": [
+        "../src/prisma/generated/type-graphql/enums/UserDistinctFieldEnum.ts",
         "../src/prisma/generated/type-graphql/resolvers/inputs/UserOrderByInput.ts",
         "../src/prisma/generated/type-graphql/resolvers/inputs/UserWhereInput.ts",
         "../src/prisma/generated/type-graphql/resolvers/inputs/UserWhereUniqueInput.ts"
@@ -29838,6 +29942,7 @@
         "../src/prisma/generated/type-graphql/resolvers/inputs/UserWhereUniqueInput.ts"
       ],
       "../src/prisma/generated/type-graphql/resolvers/crud/User/args/FindManyUserArgs.ts": [
+        "../src/prisma/generated/type-graphql/enums/UserDistinctFieldEnum.ts",
         "../src/prisma/generated/type-graphql/resolvers/inputs/UserOrderByInput.ts",
         "../src/prisma/generated/type-graphql/resolvers/inputs/UserWhereInput.ts",
         "../src/prisma/generated/type-graphql/resolvers/inputs/UserWhereUniqueInput.ts"
@@ -29893,6 +29998,9 @@
         "../src/prisma/generated/type-graphql/resolvers/crud/User/UserCrudResolver.ts",
         "../src/prisma/generated/type-graphql/resolvers/crud/User/args/index.ts"
       ],
+      "../src/prisma/generated/type-graphql/resolvers/inputs/DateTimeFilter.ts": [
+        "../src/prisma/generated/type-graphql/resolvers/inputs/NestedDateTimeFilter.ts"
+      ],
       "../src/prisma/generated/type-graphql/resolvers/inputs/RoleCreateInput.ts": [
         "../src/prisma/generated/type-graphql/resolvers/inputs/UserCreateManyWithoutRoleInput.ts"
       ],
@@ -29902,6 +30010,9 @@
       ],
       "../src/prisma/generated/type-graphql/resolvers/inputs/RoleOrderByInput.ts": [
         "../src/prisma/generated/type-graphql/enums/SortOrder.ts"
+      ],
+      "../src/prisma/generated/type-graphql/resolvers/inputs/RoleRelationFilter.ts": [
+        "../src/prisma/generated/type-graphql/resolvers/inputs/RoleWhereInput.ts"
       ],
       "../src/prisma/generated/type-graphql/resolvers/inputs/RoleUpdateInput.ts": [
         "../src/prisma/generated/type-graphql/resolvers/inputs/UserUpdateManyWithoutRoleInput.ts"
@@ -29918,9 +30029,15 @@
       ],
       "../src/prisma/generated/type-graphql/resolvers/inputs/RoleWhereInput.ts": [
         "../src/prisma/generated/type-graphql/resolvers/inputs/DateTimeFilter.ts",
-        "../src/prisma/generated/type-graphql/resolvers/inputs/NullableStringFilter.ts",
         "../src/prisma/generated/type-graphql/resolvers/inputs/StringFilter.ts",
-        "../src/prisma/generated/type-graphql/resolvers/inputs/UserFilter.ts"
+        "../src/prisma/generated/type-graphql/resolvers/inputs/StringNullableFilter.ts",
+        "../src/prisma/generated/type-graphql/resolvers/inputs/UserListRelationFilter.ts"
+      ],
+      "../src/prisma/generated/type-graphql/resolvers/inputs/StringFilter.ts": [
+        "../src/prisma/generated/type-graphql/resolvers/inputs/NestedStringFilter.ts"
+      ],
+      "../src/prisma/generated/type-graphql/resolvers/inputs/StringNullableFilter.ts": [
+        "../src/prisma/generated/type-graphql/resolvers/inputs/NestedStringNullableFilter.ts"
       ],
       "../src/prisma/generated/type-graphql/resolvers/inputs/UserCreateInput.ts": [
         "../src/prisma/generated/type-graphql/resolvers/inputs/RoleCreateOneWithoutUsersInput.ts"
@@ -29929,7 +30046,7 @@
         "../src/prisma/generated/type-graphql/resolvers/inputs/UserCreateWithoutRoleInput.ts",
         "../src/prisma/generated/type-graphql/resolvers/inputs/UserWhereUniqueInput.ts"
       ],
-      "../src/prisma/generated/type-graphql/resolvers/inputs/UserFilter.ts": [
+      "../src/prisma/generated/type-graphql/resolvers/inputs/UserListRelationFilter.ts": [
         "../src/prisma/generated/type-graphql/resolvers/inputs/UserWhereInput.ts"
       ],
       "../src/prisma/generated/type-graphql/resolvers/inputs/UserOrderByInput.ts": [
@@ -29970,11 +30087,14 @@
       ],
       "../src/prisma/generated/type-graphql/resolvers/inputs/index.ts": [
         "../src/prisma/generated/type-graphql/resolvers/inputs/DateTimeFilter.ts",
-        "../src/prisma/generated/type-graphql/resolvers/inputs/NullableStringFilter.ts",
+        "../src/prisma/generated/type-graphql/resolvers/inputs/NestedDateTimeFilter.ts",
+        "../src/prisma/generated/type-graphql/resolvers/inputs/NestedStringFilter.ts",
+        "../src/prisma/generated/type-graphql/resolvers/inputs/NestedStringNullableFilter.ts",
         "../src/prisma/generated/type-graphql/resolvers/inputs/RoleCreateInput.ts",
         "../src/prisma/generated/type-graphql/resolvers/inputs/RoleCreateOneWithoutUsersInput.ts",
         "../src/prisma/generated/type-graphql/resolvers/inputs/RoleCreateWithoutUsersInput.ts",
         "../src/prisma/generated/type-graphql/resolvers/inputs/RoleOrderByInput.ts",
+        "../src/prisma/generated/type-graphql/resolvers/inputs/RoleRelationFilter.ts",
         "../src/prisma/generated/type-graphql/resolvers/inputs/RoleUpdateInput.ts",
         "../src/prisma/generated/type-graphql/resolvers/inputs/RoleUpdateManyMutationInput.ts",
         "../src/prisma/generated/type-graphql/resolvers/inputs/RoleUpdateOneRequiredWithoutUsersInput.ts",
@@ -29983,10 +30103,11 @@
         "../src/prisma/generated/type-graphql/resolvers/inputs/RoleWhereInput.ts",
         "../src/prisma/generated/type-graphql/resolvers/inputs/RoleWhereUniqueInput.ts",
         "../src/prisma/generated/type-graphql/resolvers/inputs/StringFilter.ts",
+        "../src/prisma/generated/type-graphql/resolvers/inputs/StringNullableFilter.ts",
         "../src/prisma/generated/type-graphql/resolvers/inputs/UserCreateInput.ts",
         "../src/prisma/generated/type-graphql/resolvers/inputs/UserCreateManyWithoutRoleInput.ts",
         "../src/prisma/generated/type-graphql/resolvers/inputs/UserCreateWithoutRoleInput.ts",
-        "../src/prisma/generated/type-graphql/resolvers/inputs/UserFilter.ts",
+        "../src/prisma/generated/type-graphql/resolvers/inputs/UserListRelationFilter.ts",
         "../src/prisma/generated/type-graphql/resolvers/inputs/UserOrderByInput.ts",
         "../src/prisma/generated/type-graphql/resolvers/inputs/UserScalarWhereInput.ts",
         "../src/prisma/generated/type-graphql/resolvers/inputs/UserUpdateInput.ts",
@@ -30011,6 +30132,7 @@
         "../src/prisma/generated/type-graphql/resolvers/relations/Role/args/RoleUsersArgs.ts"
       ],
       "../src/prisma/generated/type-graphql/resolvers/relations/Role/args/RoleUsersArgs.ts": [
+        "../src/prisma/generated/type-graphql/enums/UserDistinctFieldEnum.ts",
         "../src/prisma/generated/type-graphql/resolvers/inputs/UserOrderByInput.ts",
         "../src/prisma/generated/type-graphql/resolvers/inputs/UserWhereInput.ts",
         "../src/prisma/generated/type-graphql/resolvers/inputs/UserWhereUniqueInput.ts"

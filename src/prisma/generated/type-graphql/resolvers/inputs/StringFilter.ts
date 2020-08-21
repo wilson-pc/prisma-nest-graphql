@@ -1,6 +1,7 @@
 import * as TypeGraphQL from "type-graphql";
 import GraphQLJSON from "graphql-type-json";
 import { JsonValue, InputJsonValue } from "../../../../../../prisma/client";
+import { NestedStringFilter } from "../inputs/NestedStringFilter";
 
 @TypeGraphQL.InputType({
   isAbstract: true,
@@ -12,12 +13,6 @@ export class StringFilter {
     description: undefined
   })
   equals?: string | undefined;
-
-  @TypeGraphQL.Field(_type => String, {
-    nullable: true,
-    description: undefined
-  })
-  not?: string | undefined;
 
   @TypeGraphQL.Field(_type => [String], {
     nullable: true,
@@ -72,4 +67,10 @@ export class StringFilter {
     description: undefined
   })
   endsWith?: string | undefined;
+
+  @TypeGraphQL.Field(_type => NestedStringFilter, {
+    nullable: true,
+    description: undefined
+  })
+  not?: NestedStringFilter | undefined;
 }

@@ -3,6 +3,7 @@ import GraphQLJSON from "graphql-type-json";
 import { RoleOrderByInput } from "../../../inputs/RoleOrderByInput";
 import { RoleWhereInput } from "../../../inputs/RoleWhereInput";
 import { RoleWhereUniqueInput } from "../../../inputs/RoleWhereUniqueInput";
+import { RoleDistinctFieldEnum } from "../../../../enums/RoleDistinctFieldEnum";
 
 @TypeGraphQL.ArgsType()
 export class AggregateRoleArgs {
@@ -20,4 +21,7 @@ export class AggregateRoleArgs {
 
   @TypeGraphQL.Field(_type => TypeGraphQL.Int, { nullable: true })
   skip?: number | undefined;
+
+  @TypeGraphQL.Field(_type => [RoleDistinctFieldEnum], { nullable: true })
+  distinct?: Array<keyof typeof RoleDistinctFieldEnum> | undefined;
 }

@@ -11,6 +11,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.DateTimeFilter = void 0;
 const TypeGraphQL = require("type-graphql");
+const NestedDateTimeFilter_1 = require("../inputs/NestedDateTimeFilter");
 let DateTimeFilter = class DateTimeFilter {
 };
 __decorate([
@@ -20,13 +21,6 @@ __decorate([
     }),
     __metadata("design:type", Date)
 ], DateTimeFilter.prototype, "equals", void 0);
-__decorate([
-    TypeGraphQL.Field(_type => Date, {
-        nullable: true,
-        description: undefined
-    }),
-    __metadata("design:type", Date)
-], DateTimeFilter.prototype, "not", void 0);
 __decorate([
     TypeGraphQL.Field(_type => [Date], {
         nullable: true,
@@ -69,6 +63,13 @@ __decorate([
     }),
     __metadata("design:type", Date)
 ], DateTimeFilter.prototype, "gte", void 0);
+__decorate([
+    TypeGraphQL.Field(_type => NestedDateTimeFilter_1.NestedDateTimeFilter, {
+        nullable: true,
+        description: undefined
+    }),
+    __metadata("design:type", NestedDateTimeFilter_1.NestedDateTimeFilter)
+], DateTimeFilter.prototype, "not", void 0);
 DateTimeFilter = __decorate([
     TypeGraphQL.InputType({
         isAbstract: true,

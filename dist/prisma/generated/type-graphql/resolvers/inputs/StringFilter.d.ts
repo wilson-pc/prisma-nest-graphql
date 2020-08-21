@@ -1,6 +1,6 @@
+import { NestedStringFilter } from "../inputs/NestedStringFilter";
 export declare class StringFilter {
     equals?: string | undefined;
-    not?: string | undefined;
     in?: string[] | undefined;
     notIn?: string[] | undefined;
     lt?: string | undefined;
@@ -10,4 +10,5 @@ export declare class StringFilter {
     contains?: string | undefined;
     startsWith?: string | undefined;
     endsWith?: string | undefined;
+    not?: NestedStringFilter | undefined;
 }

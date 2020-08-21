@@ -14,6 +14,7 @@ const TypeGraphQL = require("type-graphql");
 const UserOrderByInput_1 = require("../../../inputs/UserOrderByInput");
 const UserWhereInput_1 = require("../../../inputs/UserWhereInput");
 const UserWhereUniqueInput_1 = require("../../../inputs/UserWhereUniqueInput");
+const UserDistinctFieldEnum_1 = require("../../../../enums/UserDistinctFieldEnum");
 let AggregateUserArgs = class AggregateUserArgs {
 };
 __decorate([
@@ -36,6 +37,10 @@ __decorate([
     TypeGraphQL.Field(_type => TypeGraphQL.Int, { nullable: true }),
     __metadata("design:type", Number)
 ], AggregateUserArgs.prototype, "skip", void 0);
+__decorate([
+    TypeGraphQL.Field(_type => [UserDistinctFieldEnum_1.UserDistinctFieldEnum], { nullable: true }),
+    __metadata("design:type", Array)
+], AggregateUserArgs.prototype, "distinct", void 0);
 AggregateUserArgs = __decorate([
     TypeGraphQL.ArgsType()
 ], AggregateUserArgs);

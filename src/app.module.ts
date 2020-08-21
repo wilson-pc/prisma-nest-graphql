@@ -12,7 +12,7 @@ interface Context {
 
 @Module({
   imports: [TypeGraphQLModule.forRoot({
-    emitSchemaFile: true,
+    emitSchemaFile: "./schema.graphql",
     validate: false,
     introspection: true,
     playground: true,

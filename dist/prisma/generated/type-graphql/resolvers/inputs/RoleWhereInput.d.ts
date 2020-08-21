@@ -1,14 +1,14 @@
 import { DateTimeFilter } from "../inputs/DateTimeFilter";
-import { NullableStringFilter } from "../inputs/NullableStringFilter";
 import { StringFilter } from "../inputs/StringFilter";
-import { UserFilter } from "../inputs/UserFilter";
+import { StringNullableFilter } from "../inputs/StringNullableFilter";
+import { UserListRelationFilter } from "../inputs/UserListRelationFilter";
 export declare class RoleWhereInput {
-    id?: StringFilter | undefined;
-    name?: StringFilter | undefined;
-    description?: NullableStringFilter | undefined;
-    users?: UserFilter | undefined;
-    createdAt?: DateTimeFilter | undefined;
     AND?: RoleWhereInput[] | undefined;
     OR?: RoleWhereInput[] | undefined;
     NOT?: RoleWhereInput[] | undefined;
+    id?: StringFilter | undefined;
+    name?: StringFilter | undefined;
+    description?: StringNullableFilter | undefined;
+    users?: UserListRelationFilter | undefined;
+    createdAt?: DateTimeFilter | undefined;
 }

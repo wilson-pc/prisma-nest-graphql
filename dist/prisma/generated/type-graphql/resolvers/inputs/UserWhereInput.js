@@ -18,6 +18,27 @@ const StringFilter_1 = require("../inputs/StringFilter");
 let UserWhereInput = UserWhereInput_1 = class UserWhereInput {
 };
 __decorate([
+    TypeGraphQL.Field(_type => [UserWhereInput_1], {
+        nullable: true,
+        description: undefined
+    }),
+    __metadata("design:type", Array)
+], UserWhereInput.prototype, "AND", void 0);
+__decorate([
+    TypeGraphQL.Field(_type => [UserWhereInput_1], {
+        nullable: true,
+        description: undefined
+    }),
+    __metadata("design:type", Array)
+], UserWhereInput.prototype, "OR", void 0);
+__decorate([
+    TypeGraphQL.Field(_type => [UserWhereInput_1], {
+        nullable: true,
+        description: undefined
+    }),
+    __metadata("design:type", Array)
+], UserWhereInput.prototype, "NOT", void 0);
+__decorate([
     TypeGraphQL.Field(_type => StringFilter_1.StringFilter, {
         nullable: true,
         description: undefined
@@ -52,27 +73,6 @@ __decorate([
     }),
     __metadata("design:type", StringFilter_1.StringFilter)
 ], UserWhereInput.prototype, "roleId", void 0);
-__decorate([
-    TypeGraphQL.Field(_type => [UserWhereInput_1], {
-        nullable: true,
-        description: undefined
-    }),
-    __metadata("design:type", Array)
-], UserWhereInput.prototype, "AND", void 0);
-__decorate([
-    TypeGraphQL.Field(_type => [UserWhereInput_1], {
-        nullable: true,
-        description: undefined
-    }),
-    __metadata("design:type", Array)
-], UserWhereInput.prototype, "OR", void 0);
-__decorate([
-    TypeGraphQL.Field(_type => [UserWhereInput_1], {
-        nullable: true,
-        description: undefined
-    }),
-    __metadata("design:type", Array)
-], UserWhereInput.prototype, "NOT", void 0);
 __decorate([
     TypeGraphQL.Field(_type => RoleWhereInput_1.RoleWhereInput, {
         nullable: true,

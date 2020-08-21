@@ -9,6 +9,24 @@ import { StringFilter } from "../inputs/StringFilter";
   description: undefined,
 })
 export class UserScalarWhereInput {
+  @TypeGraphQL.Field(_type => [UserScalarWhereInput], {
+    nullable: true,
+    description: undefined
+  })
+  AND?: UserScalarWhereInput[] | undefined;
+
+  @TypeGraphQL.Field(_type => [UserScalarWhereInput], {
+    nullable: true,
+    description: undefined
+  })
+  OR?: UserScalarWhereInput[] | undefined;
+
+  @TypeGraphQL.Field(_type => [UserScalarWhereInput], {
+    nullable: true,
+    description: undefined
+  })
+  NOT?: UserScalarWhereInput[] | undefined;
+
   @TypeGraphQL.Field(_type => StringFilter, {
     nullable: true,
     description: undefined
@@ -38,22 +56,4 @@ export class UserScalarWhereInput {
     description: undefined
   })
   roleId?: StringFilter | undefined;
-
-  @TypeGraphQL.Field(_type => [UserScalarWhereInput], {
-    nullable: true,
-    description: undefined
-  })
-  AND?: UserScalarWhereInput[] | undefined;
-
-  @TypeGraphQL.Field(_type => [UserScalarWhereInput], {
-    nullable: true,
-    description: undefined
-  })
-  OR?: UserScalarWhereInput[] | undefined;
-
-  @TypeGraphQL.Field(_type => [UserScalarWhereInput], {
-    nullable: true,
-    description: undefined
-  })
-  NOT?: UserScalarWhereInput[] | undefined;
 }

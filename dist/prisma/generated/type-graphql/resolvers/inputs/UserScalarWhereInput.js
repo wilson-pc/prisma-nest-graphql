@@ -17,6 +17,27 @@ const StringFilter_1 = require("../inputs/StringFilter");
 let UserScalarWhereInput = UserScalarWhereInput_1 = class UserScalarWhereInput {
 };
 __decorate([
+    TypeGraphQL.Field(_type => [UserScalarWhereInput_1], {
+        nullable: true,
+        description: undefined
+    }),
+    __metadata("design:type", Array)
+], UserScalarWhereInput.prototype, "AND", void 0);
+__decorate([
+    TypeGraphQL.Field(_type => [UserScalarWhereInput_1], {
+        nullable: true,
+        description: undefined
+    }),
+    __metadata("design:type", Array)
+], UserScalarWhereInput.prototype, "OR", void 0);
+__decorate([
+    TypeGraphQL.Field(_type => [UserScalarWhereInput_1], {
+        nullable: true,
+        description: undefined
+    }),
+    __metadata("design:type", Array)
+], UserScalarWhereInput.prototype, "NOT", void 0);
+__decorate([
     TypeGraphQL.Field(_type => StringFilter_1.StringFilter, {
         nullable: true,
         description: undefined
@@ -51,27 +72,6 @@ __decorate([
     }),
     __metadata("design:type", StringFilter_1.StringFilter)
 ], UserScalarWhereInput.prototype, "roleId", void 0);
-__decorate([
-    TypeGraphQL.Field(_type => [UserScalarWhereInput_1], {
-        nullable: true,
-        description: undefined
-    }),
-    __metadata("design:type", Array)
-], UserScalarWhereInput.prototype, "AND", void 0);
-__decorate([
-    TypeGraphQL.Field(_type => [UserScalarWhereInput_1], {
-        nullable: true,
-        description: undefined
-    }),
-    __metadata("design:type", Array)
-], UserScalarWhereInput.prototype, "OR", void 0);
-__decorate([
-    TypeGraphQL.Field(_type => [UserScalarWhereInput_1], {
-        nullable: true,
-        description: undefined
-    }),
-    __metadata("design:type", Array)
-], UserScalarWhereInput.prototype, "NOT", void 0);
 UserScalarWhereInput = UserScalarWhereInput_1 = __decorate([
     TypeGraphQL.InputType({
         isAbstract: true,

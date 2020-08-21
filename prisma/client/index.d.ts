@@ -25,8 +25,8 @@ export { PrismaClientValidationError }
 export { sql, empty, join, raw }
 
 /**
- * Prisma Client JS version: 2.4.1
- * Query Engine version: 195d4bdc2d16132977f4ba7a8ca312f7906cb086
+ * Prisma Client JS version: 2.5.1
+ * Query Engine version: c88925ce44a9b89b4351aec85ba6a28979d2658e
  */
 export declare type PrismaVersion = {
   client: string
@@ -249,7 +249,7 @@ export declare function getLogLevel(log: Array<LogLevel | LogDefinition>): LogLe
  * ```
  *
  * 
- * Read more in our [docs](https://github.com/prisma/prisma/blob/master/docs/prisma-client-js/api.md).
+ * Read more in our [docs](https://www.prisma.io/docs/reference/tools-and-interfaces/prisma-client).
  */
 export declare class PrismaClient<
   T extends PrismaClientOptions = PrismaClientOptions,
@@ -300,7 +300,7 @@ export declare class PrismaClient<
    * ```
    *
    * 
-   * Read more in our [docs](https://github.com/prisma/prisma/blob/master/docs/prisma-client-js/api.md).
+   * Read more in our [docs](https://www.prisma.io/docs/reference/tools-and-interfaces/prisma-client).
    */
   constructor(optionsArg?: T);
   $on<V extends U>(eventType: V, callback: (event: V extends 'query' ? QueryEvent : LogEvent) => void): void;
@@ -326,7 +326,10 @@ export declare class PrismaClient<
    */
   disconnect(): Promise<any>;
 
-  
+  /**
+   * Add a middleware
+   */
+  $use(cb: Middleware): void
 
   /**
    * Executes a raw query and returns the number of affected rows
@@ -338,7 +341,7 @@ export declare class PrismaClient<
    * const result = await prisma.executeRaw('UPDATE User SET cool = $1 WHERE id = $2 ;', true, 1)
   * ```
   * 
-  * Read more in our [docs](https://github.com/prisma/prisma/blob/master/docs/prisma-client-js/api.md#raw-database-access).
+  * Read more in our [docs](https://www.prisma.io/docs/reference/tools-and-interfaces/prisma-client/raw-database-access).
   */
   $executeRaw<T = any>(query: string | TemplateStringsArray, ...values: any[]): Promise<number>;
 
@@ -357,7 +360,7 @@ export declare class PrismaClient<
    * const result = await prisma.queryRaw('SELECT * FROM User WHERE id = $1 OR email = $2;', 1, 'ema.il')
   * ```
   * 
-  * Read more in our [docs](https://github.com/prisma/prisma/blob/master/docs/prisma-client-js/api.md#raw-database-access).
+  * Read more in our [docs](https://www.prisma.io/docs/reference/tools-and-interfaces/prisma-client/raw-database-access).
   */
   $queryRaw<T = any>(query: string | TemplateStringsArray, ...values: any[]): Promise<T>;
  
@@ -404,6 +407,27 @@ export declare const SortOrder: {
 export declare type SortOrder = (typeof SortOrder)[keyof typeof SortOrder]
 
 
+export declare const UserDistinctFieldEnum: {
+  id: 'id',
+  createdAt: 'createdAt',
+  email: 'email',
+  name: 'name',
+  roleId: 'roleId'
+};
+
+export declare type UserDistinctFieldEnum = (typeof UserDistinctFieldEnum)[keyof typeof UserDistinctFieldEnum]
+
+
+export declare const RoleDistinctFieldEnum: {
+  id: 'id',
+  name: 'name',
+  description: 'description',
+  createdAt: 'createdAt'
+};
+
+export declare type RoleDistinctFieldEnum = (typeof RoleDistinctFieldEnum)[keyof typeof RoleDistinctFieldEnum]
+
+
 
 /**
  * Model User
@@ -430,6 +454,7 @@ export type AggregateUserArgs = {
   cursor?: UserWhereUniqueInput
   take?: number
   skip?: number
+  distinct?: Enumerable<UserDistinctFieldEnum>
   count?: true
 }
 
@@ -617,12 +642,10 @@ export interface UserDelegate {
    */
   count(args?: Omit<FindManyUserArgs, 'select' | 'include'>): Promise<number>
 
-
   /**
    * Aggregate
    */
   aggregate<T extends AggregateUserArgs>(args: Subset<T, AggregateUserArgs>): Promise<GetUserAggregateType<T>>
-    
 }
 
 /**
@@ -725,6 +748,7 @@ export type FindManyUserArgs = {
    * Skip the first `n` Users.
   **/
   skip?: number
+  distinct?: Enumerable<UserDistinctFieldEnum>
 }
 
 
@@ -873,6 +897,7 @@ export type AggregateRoleArgs = {
   cursor?: RoleWhereUniqueInput
   take?: number
   skip?: number
+  distinct?: Enumerable<RoleDistinctFieldEnum>
   count?: true
 }
 
@@ -1059,12 +1084,10 @@ export interface RoleDelegate {
    */
   count(args?: Omit<FindManyRoleArgs, 'select' | 'include'>): Promise<number>
 
-
   /**
    * Aggregate
    */
   aggregate<T extends AggregateRoleArgs>(args: Subset<T, AggregateRoleArgs>): Promise<GetRoleAggregateType<T>>
-    
 }
 
 /**
@@ -1167,6 +1190,7 @@ export type FindManyRoleArgs = {
    * Skip the first `n` Roles.
   **/
   skip?: number
+  distinct?: Enumerable<RoleDistinctFieldEnum>
 }
 
 
@@ -1296,26 +1320,115 @@ export type RoleArgs = {
  */
 
 
+export type NestedStringFilter = {
+  equals?: string
+  in?: Enumerable<string>
+  notIn?: Enumerable<string>
+  lt?: string
+  lte?: string
+  gt?: string
+  gte?: string
+  contains?: string
+  startsWith?: string
+  endsWith?: string
+  not?: NestedStringFilter | null
+}
+
+export type StringFilter = {
+  equals?: string
+  in?: Enumerable<string>
+  notIn?: Enumerable<string>
+  lt?: string
+  lte?: string
+  gt?: string
+  gte?: string
+  contains?: string
+  startsWith?: string
+  endsWith?: string
+  not?: string | NestedStringFilter
+}
+
+export type NestedDateTimeFilter = {
+  equals?: Date | string
+  in?: Enumerable<Date | string>
+  notIn?: Enumerable<Date | string>
+  lt?: Date | string
+  lte?: Date | string
+  gt?: Date | string
+  gte?: Date | string
+  not?: NestedDateTimeFilter | null
+}
+
+export type DateTimeFilter = {
+  equals?: Date | string
+  in?: Enumerable<Date | string>
+  notIn?: Enumerable<Date | string>
+  lt?: Date | string
+  lte?: Date | string
+  gt?: Date | string
+  gte?: Date | string
+  not?: Date | string | NestedDateTimeFilter
+}
+
+export type NestedStringNullableFilter = {
+  equals?: string | null
+  in?: Enumerable<string> | null
+  notIn?: Enumerable<string> | null
+  lt?: string | null
+  lte?: string | null
+  gt?: string | null
+  gte?: string | null
+  contains?: string | null
+  startsWith?: string | null
+  endsWith?: string | null
+  not?: NestedStringNullableFilter | null
+}
+
+export type StringNullableFilter = {
+  equals?: string | null
+  in?: Enumerable<string> | null
+  notIn?: Enumerable<string> | null
+  lt?: string | null
+  lte?: string | null
+  gt?: string | null
+  gte?: string | null
+  contains?: string | null
+  startsWith?: string | null
+  endsWith?: string | null
+  not?: string | NestedStringNullableFilter | null
+}
+
+export type UserListRelationFilter = {
+  every?: UserWhereInput
+  some?: UserWhereInput
+  none?: UserWhereInput
+}
+
 export type RoleWhereInput = {
-  id?: string | StringFilter
-  name?: string | StringFilter
-  description?: string | NullableStringFilter | null
-  users?: UserFilter | null
-  createdAt?: Date | string | DateTimeFilter
   AND?: Enumerable<RoleWhereInput>
   OR?: Array<RoleWhereInput>
   NOT?: Enumerable<RoleWhereInput>
+  id?: string | StringFilter
+  name?: string | StringFilter
+  description?: string | StringNullableFilter | null
+  users?: UserListRelationFilter
+  createdAt?: Date | string | DateTimeFilter
+}
+
+export type RoleRelationFilter = {
+  is?: RoleWhereInput | null
+  isNot?: RoleWhereInput | null
 }
 
 export type UserWhereInput = {
+  AND?: Enumerable<UserWhereInput>
+  OR?: Array<UserWhereInput>
+  NOT?: Enumerable<UserWhereInput>
   id?: string | StringFilter
   createdAt?: Date | string | DateTimeFilter
   email?: string | StringFilter
   name?: string | StringFilter
   roleId?: string | StringFilter
-  AND?: Enumerable<UserWhereInput>
-  OR?: Array<UserWhereInput>
-  NOT?: Enumerable<UserWhereInput>
   role?: RoleWhereInput | null
 }
 
@@ -1431,14 +1544,14 @@ export type UserUpdateWithWhereUniqueWithoutRoleInput = {
 }
 
 export type UserScalarWhereInput = {
+  AND?: Enumerable<UserScalarWhereInput>
+  OR?: Array<UserScalarWhereInput>
+  NOT?: Enumerable<UserScalarWhereInput>
   id?: string | StringFilter
   createdAt?: Date | string | DateTimeFilter
   email?: string | StringFilter
   name?: string | StringFilter
   roleId?: string | StringFilter
-  AND?: Enumerable<UserScalarWhereInput>
-  OR?: Array<UserScalarWhereInput>
-  NOT?: Enumerable<UserScalarWhereInput>
 }
 
 export type UserUpdateManyDataInput = {
@@ -1484,51 +1597,6 @@ export type RoleUpdateManyMutationInput = {
   name?: string
   description?: string | null
   createdAt?: Date | string
-}
-
-export type StringFilter = {
-  equals?: string
-  not?: string | StringFilter
-  in?: Enumerable<string>
-  notIn?: Enumerable<string>
-  lt?: string
-  lte?: string
-  gt?: string
-  gte?: string
-  contains?: string
-  startsWith?: string
-  endsWith?: string
-}
-
-export type NullableStringFilter = {
-  equals?: string | null
-  not?: string | null | NullableStringFilter
-  in?: Enumerable<string> | null
-  notIn?: Enumerable<string> | null
-  lt?: string | null
-  lte?: string | null
-  gt?: string | null
-  gte?: string | null
-  contains?: string | null
-  startsWith?: string | null
-  endsWith?: string | null
-}
-
-export type UserFilter = {
-  every?: UserWhereInput
-  some?: UserWhereInput
-  none?: UserWhereInput
-}
-
-export type DateTimeFilter = {
-  equals?: Date | string
-  not?: Date | string | DateTimeFilter
-  in?: Enumerable<Date | string>
-  notIn?: Enumerable<Date | string>
-  lt?: Date | string
-  lte?: Date | string
-  gt?: Date | string
-  gte?: Date | string
 }
 
 /**

@@ -11,6 +11,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.StringFilter = void 0;
 const TypeGraphQL = require("type-graphql");
+const NestedStringFilter_1 = require("../inputs/NestedStringFilter");
 let StringFilter = class StringFilter {
 };
 __decorate([
@@ -20,13 +21,6 @@ __decorate([
     }),
     __metadata("design:type", String)
 ], StringFilter.prototype, "equals", void 0);
-__decorate([
-    TypeGraphQL.Field(_type => String, {
-        nullable: true,
-        description: undefined
-    }),
-    __metadata("design:type", String)
-], StringFilter.prototype, "not", void 0);
 __decorate([
     TypeGraphQL.Field(_type => [String], {
         nullable: true,
@@ -90,6 +84,13 @@ __decorate([
     }),
     __metadata("design:type", String)
 ], StringFilter.prototype, "endsWith", void 0);
+__decorate([
+    TypeGraphQL.Field(_type => NestedStringFilter_1.NestedStringFilter, {
+        nullable: true,
+        description: undefined
+    }),
+    __metadata("design:type", NestedStringFilter_1.NestedStringFilter)
+], StringFilter.prototype, "not", void 0);
 StringFilter = __decorate([
     TypeGraphQL.InputType({
         isAbstract: true,

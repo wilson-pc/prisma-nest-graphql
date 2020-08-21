@@ -19,7 +19,7 @@ let AppModule = class AppModule {
 AppModule = __decorate([
     common_1.Module({
         imports: [typegraphql_nestjs_1.TypeGraphQLModule.forRoot({
-                emitSchemaFile: true,
+                emitSchemaFile: "./schema.graphql",
                 validate: false,
                 introspection: true,
                 playground: true,
